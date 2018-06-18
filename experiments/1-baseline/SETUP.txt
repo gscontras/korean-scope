@@ -1,0 +1,47 @@
+ADJUNCT EXPERIMENT SETUP INSTRUCTIONS
+Carl Pillot ~ carl.pillot@post.harvard.edu
+last modified: 12.09.2012
+
+This template is for experiments with an auditory stimulus, scale rating of the stimulus, and a follow up question.  It measures reaction times.
+
+Files you will need to modify or create for experiment to work:
+* web/resources/index.txt (create new file based off of index_example.txt)
+* web/setup/settings.js (modify)
+* mp3 files in web/resources/sounds (create)
+* web/views/finalthanks.ejs (modify)
+* getResults.r (modify)
+
+Areas to modify are identified by comments in the files.
+
+1. Generate tab separated index file of tests named "index.txt" in web/resources. See "web/resources/index_example.txt" for example file. To create a tab separate file, export from Excel and choose the correct options.  See excel documentation for more info.
+
+    The index file should contain the following columns:
+
+    * audio - Id number of audio file associated with the question.  Should not include file extension (for example file 702.mp3 should be listed as 702).
+    * condition - condition identifier for the item begin tested.  Can be any character "A","a","1", etc. however each item must have the same number of conditions and the same identifiers.  Stimuli with the condition "filler" will be separated from tests and will be sorted randomly into the experiment.
+    * item - Numerical id for item set.
+    * stimulus - Text of stimulus  
+    * comprehension - Text of comprehension question.
+    * answer - answer to comprehension question.  
+    
+2. Put mp3 files corresponding to the audio ids in index.txt into web/resources/sounds/ 
+   audio files should be in mp3 format and follow the format [id].mp3 (ex: 42.mp3) 
+
+3. In web/setup/settings.js change the experiment name and windowTitle string to descriptive values for your experiment.  
+
+4. Change the experiment name in getresults.R to the same value as in settings.js.
+   
+5. Update finalthanks.ejs (in web/views) to include Mechanical Turk Link.  If not using Mechanical Turk delete finalthanks.ejs and change name of finalthanks_nonturk.ejs to finalthanks.ejs.
+
+6. Upload "web" folder to a web server and test experiment.  Harvard provides 100mb of free web hosting to students and faculty that can be used for experiments. For directions on setting up personal web space see "HOW_TO_SET_UP_FAS WEB_HOSTING.txt".
+
+
+
+Also see README.md for more general info on Experigen. 
+
+HOW THIS TEMPLATE ASSEMBLES THE TESTS:
+* First it loads the data from index.txt and separates tests from fillers
+* Then it creates a list of each unique condition name (i.e. a,b,c,d). There must be the same number of conditions with the same identifiers for each item for the test to work properly.
+* It then randomizes the list of conditions and iterates through each item selecting one condition for each item.  The randomization ensures that all conditions will be tested given enough test subjects.
+* After selecting the tests for the trial, tests and fillers are randomized together to the order they will be presented to the user.
+* This logic is contained in web/setup/design.js
