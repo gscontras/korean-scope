@@ -1,0 +1,14 @@
+
+<%= makePicture({src: '059.JPG', width: '500px'}) %>
+
+<div class="trialpartWrapper" style="">
+	<p>Click to play sound:</p>
+	<%= makeSoundButton({soundFile: '09.mp3'}) %>
+</div>
+<div class="trialpartWrapper" style="clear:both; text-align: center;">  
+    <p>The sentence that you heard appropriately describes the image, so you should rate it high.</p>
+	<%= makeScaleWithMidpoint({buttons: ["1","2","3","4","5","6","7"], edgelabels: ["completely unacceptable", "completely acceptable"], midpointStyle: "text-decoration:underline"}) %>
+</div>
+
+<input type="hidden" name="condition" value="practice" />
+<input type="hidden" name="item" value="p2" />
