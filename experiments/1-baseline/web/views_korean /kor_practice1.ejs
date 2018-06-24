@@ -2,12 +2,12 @@
 <%= makePicture({src: '001.JPG', width: '500px'}) %>
 
 <div class="trialpartWrapper" style="">
-	<p>Click to play sound:</p>
+	<p>소리 버튼을 누르세요:</p>
 	<%= makeSoundButton({soundFile: '08.mp3'}) %>
 </div>
 <div class="trialpartWrapper" style="clear:both; text-align: center;">  
-    <p>The sentence that you heard does not appropriately describe the image, so you should rate it low.</p>
-	<%= makeScaleWithMidpoint({buttons: ["1","2","3","4","5","6","7"], edgelabels: ["completely unacceptable", "completely acceptable"], midpointStyle: "text-decoration:underline"}) %>
+    <p>지금 들은 그림에 대한 설명은 적절하지 못하므로 낮게 평가하세요.</p>
+	<%= makeScaleWithMidpoint({buttons: ["1","2","3","4","5","6","7"], edgelabels: ["매우 부적절함", "매우 적절함"], midpointStyle: "text-decoration:underline"}) %>
 </div>
 
 
