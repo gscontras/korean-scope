@@ -48,7 +48,7 @@ function make_slides(f) {
       {item: "4-feeding", aevery_surface: "4-feeding-aevery-surface", aevery_inverse: "4-feeding-aevery-inverse", everya_inverse: "4-feeding-everya-inverse"},
       {item: "5-bottle", aevery_surface: "5-bottle-aevery-surface", aevery_inverse: "5-bottle-aevery-inverse", everya_inverse: "5-bottle-everya-inverse"},
       {item: "6-biting", aevery_surface: "6-biting-aevery-surface", aevery_inverse: "6-biting-aevery-inverse", everya_inverse: "6-biting-everya-inverse"},
-      {item: "7-attacking", aevery_surface: "7-attacking-aevery-surfac", aevery_inverse: "7-attacking-aevery-inverse", everya_inverse: "7-attacking-everya-inverse"},
+      {item: "7-attacking", aevery_surface: "7-attacking-aevery-surface", aevery_inverse: "7-attacking-aevery-inverse", everya_inverse: "7-attacking-everya-inverse"},
       {item: "8-petting", aevery_surface: "8-petting-aevery-surface", aevery_inverse: "8-petting-aevery-inverse", everya_inverse: "8-petting-everya-inverse"}
       // {url: "audio/1-leaning-aevery-default.m4a"}
     ],
