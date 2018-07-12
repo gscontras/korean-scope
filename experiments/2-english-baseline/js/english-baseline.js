@@ -42,14 +42,14 @@ function make_slides(f) {
      (the variable 'stim' will change between each of these values,
       and for each of these, present_handle will be run.) */
     present : [
-      {item: "1-leaning", aevery_surface: "006", aevery_inverse: "007", everya_inverse: "008"},
-      {item: "2-leaning", aevery_surface: "005", aevery_inverse: "008", everya_inverse: "009"},
-      {item: "3-leaning", aevery_surface: "005", aevery_inverse: "008", everya_inverse: "009"},
-      {item: "4-leaning", aevery_surface: "005", aevery_inverse: "008", everya_inverse: "009"},
-      {item: "5-leaning", aevery_surface: "005", aevery_inverse: "008", everya_inverse: "009"},
-      {item: "6-leaning", aevery_surface: "005", aevery_inverse: "008", everya_inverse: "009"},
-      {item: "7-leaning", aevery_surface: "005", aevery_inverse: "008", everya_inverse: "009"},
-      {item: "8-leaning", aevery_surface: "005", aevery_inverse: "008", everya_inverse: "009"}
+      {item: "1-leaning", aevery_surface: "1-leaning-aevery-surface", aevery_inverse: "1-leaning-aevery-inverse", everya_inverse: "1-leaning-everya-inverse"},
+      {item: "2-fishing", aevery_surface: "2-fishing-aevery-surface", aevery_inverse: "2-fishing-aevery-inverse", everya_inverse: "2-fishing-everya-inverse"},
+      {item: "3-fishpole", aevery_surface: "3-fishpole-aevery-surface", aevery_inverse: "3-fishpole-aevery-inverse", everya_inverse: "3-fishpole-everya-inverse"},
+      {item: "4-feeding", aevery_surface: "4-feeding-aevery-surface", aevery_inverse: "4-feeding-aevery-inverse", everya_inverse: "4-feeding-everya-inverse"},
+      {item: "5-bottle", aevery_surface: "5-bottle-aevery-surface", aevery_inverse: "5-bottle-aevery-inverse", everya_inverse: "5-bottle-everya-inverse"},
+      {item: "6-biting", aevery_surface: "6-biting-aevery-surface", aevery_inverse: "6-biting-aevery-inverse", everya_inverse: "6-biting-everya-inverse"},
+      {item: "7-attacking", aevery_surface: "7-attacking-aevery-surface", aevery_inverse: "7-attacking-aevery-inverse", everya_inverse: "7-attacking-everya-inverse"},
+      {item: "8-petting", aevery_surface: "8-petting-aevery-surface", aevery_inverse: "8-petting-aevery-inverse", everya_inverse: "8-petting-everya-inverse"}
       // {url: "audio/1-leaning-aevery-default.m4a"}
     ],
 
