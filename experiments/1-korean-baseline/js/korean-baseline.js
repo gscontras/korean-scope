@@ -43,13 +43,13 @@ function make_slides(f) {
       and for each of these, present_handle will be run.) */
     present : [
       {item: "1-leaning", aevery_surface: "006", aevery_inverse: "007", everya_inverse: "008"},
-      {item: "2-leaning", aevery_surface: "005", aevery_inverse: "008", everya_inverse: "009"},
-      {item: "3-leaning", aevery_surface: "005", aevery_inverse: "008", everya_inverse: "009"},
-      {item: "4-leaning", aevery_surface: "005", aevery_inverse: "008", everya_inverse: "009"},
-      {item: "5-leaning", aevery_surface: "005", aevery_inverse: "008", everya_inverse: "009"},
-      {item: "6-leaning", aevery_surface: "005", aevery_inverse: "008", everya_inverse: "009"},
-      {item: "7-leaning", aevery_surface: "005", aevery_inverse: "008", everya_inverse: "009"},
-      {item: "8-leaning", aevery_surface: "005", aevery_inverse: "008", everya_inverse: "009"}
+      {item: "2-fishing", aevery_surface: "049", aevery_inverse: "015", everya_inverse: "012"},
+      {item: "3-fish pole", aevery_surface: "018", aevery_inverse: "016", everya_inverse: "013"},
+      {item: "4-feeding", aevery_surface: "021", aevery_inverse: "019", everya_inverse: "020"},
+      {item: "5-bottle", aevery_surface: "027", aevery_inverse: "026", everya_inverse: "025"},
+      {item: "6-biting", aevery_surface: "040", aevery_inverse: "036", everya_inverse: "037"},
+      {item: "7-attacking", aevery_surface: "035", aevery_inverse: "033", everya_inverse: "034"},
+      {item: "8-petting", aevery_surface: "071", aevery_inverse: "070", everya_inverse: "069"}
       // {url: "audio/1-leaning-aevery-default.m4a"}
     ],
 
