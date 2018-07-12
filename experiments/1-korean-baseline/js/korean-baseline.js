@@ -42,15 +42,15 @@ function make_slides(f) {
      (the variable 'stim' will change between each of these values,
       and for each of these, present_handle will be run.) */
     present : [
-      {item: "1-leaning", aevery_surface: "1-leaning-aevery-surface", aevery_inverse: "1-leaning-aevery-inverse", everya_inverse: "1-leaning-everya-inverse"},
-      {item: "2-fishing", aevery_surface: "2-fishing-aevery-surface", aevery_inverse: "2-fishing-aevery-inverse", everya_inverse: "2-fishing-everya-inverse"},
-      {item: "3-fish pole", aevery_surface: "3-fishpole-aevery-surface", aevery_inverse: "3-fishpole-aevery-inverse", everya_inverse: "3-fishpole-everya-inverse"},
-      {item: "4-feeding", aevery_surface: "4-feeding-aevery-surface", aevery_inverse: "4-feeding-aevery-inverse", everya_inverse: "4-feeding-everya-inverse"},
-      {item: "5-bottle", aevery_surface: "5-bottle-aevery-surface", aevery_inverse: "5-bottle-aevery-inverse", everya_inverse: "5-bottle-everya-inverse"},
-      {item: "6-biting", aevery_surface: "6-biting-aevery-surface", aevery_inverse: "6-biting-aevery-inverse", everya_inverse: "6-biting-everya-inverse"},
-      {item: "7-attacking", aevery_surface: "7-attacking-aevery-surface", aevery_inverse: "7-attacking-aevery-inverse", everya_inverse: "7-attacking-everya-inverse"},
-      {item: "8-petting", aevery_surface: "8-petting-aevery-surface", aevery_inverse: "8-petting-aevery-inverse", everya_inverse: "8-petting-everya-inverse"}
-      // {url: "audio/1-leaning-aevery-default.m4a"}
+      {type: "test", item: "1-leaning", aevery_surface: "1-leaning-aevery-surface", aevery_inverse: "1-leaning-aevery-inverse", everya_inverse: "1-leaning-everya-inverse"},
+      {type: "test", item: "2-fishing", aevery_surface: "2-fishing-aevery-surface", aevery_inverse: "2-fishing-aevery-inverse", everya_inverse: "2-fishing-everya-inverse"},
+      {type: "test", item: "3-fish pole", aevery_surface: "3-fishpole-aevery-surface", aevery_inverse: "3-fishpole-aevery-inverse", everya_inverse: "3-fishpole-everya-inverse"},
+      {type: "test", item: "4-feeding", aevery_surface: "4-feeding-aevery-surface", aevery_inverse: "4-feeding-aevery-inverse", everya_inverse: "4-feeding-everya-inverse"},
+      {type: "test", item: "5-bottle", aevery_surface: "5-bottle-aevery-surface", aevery_inverse: "5-bottle-aevery-inverse", everya_inverse: "5-bottle-everya-inverse"},
+      {type: "test", item: "6-biting", aevery_surface: "6-biting-aevery-surface", aevery_inverse: "6-biting-aevery-inverse", everya_inverse: "6-biting-everya-inverse"},
+      {type: "test", item: "7-attacking", aevery_surface: "7-attacking-aevery-surface", aevery_inverse: "7-attacking-aevery-inverse", everya_inverse: "7-attacking-everya-inverse"},
+      {type: "test", item: "8-petting", aevery_surface: "8-petting-aevery-surface", aevery_inverse: "8-petting-aevery-inverse", everya_inverse: "8-petting-everya-inverse"},
+      {type: "filler", item: "filler1", aevery_surface: "053", aevery_inverse: "053", everya_inverse: "053", audio: "00.m4a"}
     ],
 
     //this gets run only at the beginning of the block
@@ -81,8 +81,13 @@ function make_slides(f) {
       document.getElementById('image').src = image_src
 
       // set the audio
-      audio_file = "audio/" + stim.item + "-" + order + "-" + exp.scrambled + ".m4a";
-      document.getElementById('audio').src = audio_file;
+      if (this.stim.type == "test") {
+        audio_file = "audio/" + stim.item + "-" + order + "-" + exp.scrambled + ".m4a";
+        document.getElementById('audio').src = audio_file;
+      } else {
+        audio_file = this.stim.audio;
+        document.getElementById('audio').src = audio_file;
+      }
 
       // show prompt after audio plays
       document.getElementById("audio").onended = function() {right()};
@@ -123,7 +128,8 @@ function make_slides(f) {
         "item" : this.stim.item,
         "scramble" : exp.scrambled,
         "audio" : audio_file,
-        "image" : image_src
+        "image" : image_src,
+        "type" : this.stim.type
       });
     }
   });
@@ -178,7 +184,7 @@ function init() {
       screenUW: exp.width
     };
   //blocks of the experiment:
-  exp.structure=["i0", "instructions", "single_trial", "one_slider", 'subj_info', 'thanks'];
+  exp.structure=["i0", "instructions", "one_slider", 'subj_info', 'thanks'];
   
   exp.data_trials = [];
   //make corresponding slides:

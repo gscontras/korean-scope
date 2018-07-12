@@ -54,32 +54,38 @@
 
   <div class="slide" id="instructions">
     <h3>지시 사항</h3>
-    <p>지시 사항입니다.</p>
+    <p>이번 설문에 참여해 주셔서 감사합니다.</p>
+    <p>40개의 슬라이드를 보게 될 것입니다. 각 슬라이드마다 당신은 하나의 그림에 대한 설명을 들을 것입니다. 그림 설명을 듣고 그 설명이 적절한지 7 점 척도로 평가해 보세요.</p>
+    <p>Please evaluate whether or not the sentence that you hear appropriately describes the image by adjusting a slider to provide your rating.
+    <p>당신이 제공한 이 설문지는 무명이며 당신이 제공한 모든 정보는 노출되지 않습니다.</p>
+    <p>문장과 그림을 평가하기 전에 당신은 세번의 연습 평가를 하게 될 것입니다.</p>
+    <p>우선, 당신의 언어 배경에 대한 질문부터 시작하겠습니다.</p>
     <button onclick="_s.button()">이어서 계속</button>
   </div>
 
-  <div class="slide" id="single_trial">
+<!--   <div class="slide" id="single_trial">
     <p>시범입니다. 아래 조건에 의거하여 귀하는 아래에 다른 단어들을 보실 수 있습니다:</p>
     <p class="display_condition">{{}}</p>
     <input type="text" id="text_response"></input>
     <button onclick="_s.button()">이어서 계속</button>
     <p class="err">무엇인가 쓰세요.</p>
-  </div>
+  </div> -->
 
   <div class="slide" id="one_slider">
-    <p>슬라이더 하나가 있습니다. 각 시도를 ‘present_handle’ 기능에 입력하세요.
-    귀하는 그 변수를 여러가지 시도로 보여주는 데 사용할 수 있습니다:</p>
+    <!-- <p>슬라이더 하나가 있습니다. 각 시도를 ‘present_handle’ 기능에 입력하세요.
+    귀하는 그 변수를 여러가지 시도로 보여주는 데 사용할 수 있습니다:</p> -->
+    <p>Click the button to play the sentence:</p>
 
     <div><img id="image" width = "400"></img></div><br>  
 
     <div><audio id="audio" controls>
     </audio></div>
 
-    <p class="hidden">XXX ask about rating</p>
+    <p class="hidden">Please evaluate whether or not the sentence that you heard appropriately describes the image by adjusting the slider below:</p>
     <table id="multi_slider_table" class="hidden">
-      <tr><td>맞지 않은</td><td>
+      <tr><td>completely inappropriate</td><td>
       <div id="single_slider" class="slider"></div>
-      </td><td>정확한</td></tr>
+      </td><td>completely appropriate</td></tr>
     </table>
 
     <button onclick="_s.button()" class="hidden">이어서 계속</button>
