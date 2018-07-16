@@ -50,7 +50,14 @@ function make_slides(f) {
       {type: "test", item: "6-biting", aevery_surface: "6-biting-aevery-surface", aevery_inverse: "6-biting-aevery-inverse", everya_inverse: "6-biting-everya-inverse"},
       {type: "test", item: "7-attacking", aevery_surface: "7-attacking-aevery-surface", aevery_inverse: "7-attacking-aevery-inverse", everya_inverse: "7-attacking-everya-inverse"},
       {type: "test", item: "8-petting", aevery_surface: "8-petting-aevery-surface", aevery_inverse: "8-petting-aevery-inverse", everya_inverse: "8-petting-everya-inverse"},
-      {type: "filler", item: "filler1", aevery_surface: "053", aevery_inverse: "053", everya_inverse: "053", audio: "00.m4a"}
+      {type: "filler", item: "filler1", aevery_surface: "005", aevery_inverse: "005", everya_inverse: "005", audio: "00.m4a"},
+      {type: "filler", item: "filler2", aevery_surface: "009", aevery_inverse: "009", everya_inverse: "009", audio: "00.m4a"},
+      {type: "filler", item: "filler3", aevery_surface: "016", aevery_inverse: "016", everya_inverse: "016", audio: "00.m4a"},
+      {type: "filler", item: "filler4", aevery_surface: "053", aevery_inverse: "053", everya_inverse: "053", audio: "00.m4a"},
+      {type: "filler", item: "filler5", aevery_surface: "054", aevery_inverse: "054", everya_inverse: "054", audio: "00.m4a"},
+      {type: "filler", item: "filler6", aevery_surface: "056", aevery_inverse: "056", everya_inverse: "056", audio: "00.m4a"},
+      {type: "filler", item: "filler7", aevery_surface: "063", aevery_inverse: "063", everya_inverse: "063", audio: "00.m4a"},
+      {type: "filler", item: "filler8", aevery_surface: "075", aevery_inverse: "075", everya_inverse: "075", audio: "00.m4a"},
     ],
 
     //this gets run only at the beginning of the block
