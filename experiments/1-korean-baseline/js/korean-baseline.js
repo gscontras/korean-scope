@@ -57,7 +57,13 @@ function make_slides(f) {
       {type: "filler", item: "filler5", aevery_surface: "treasure", aevery_inverse: "treasure", everya_inverse: "treasure", audio: "f5-default.m4a"},
       {type: "filler", item: "filler6", aevery_surface: "fishing", aevery_inverse: "fishing", everya_inverse: "fishing", audio: "f6-default.m4a"},
       {type: "filler", item: "filler7", aevery_surface: "lanterns", aevery_inverse: "lanterns", everya_inverse: "lanterns", audio: "f7-default.m4a"},
-      {type: "filler", item: "filler8", aevery_surface: "", aevery_inverse: "", everya_inverse: "", audio: ""},
+      {type: "filler", item: "filler8", aevery_surface: "treasure", aevery_inverse: "", everya_inverse: "", audio: "f8-default.m4a"},
+      {type: "filler", item: "filler9", aevery_surface: "lanterns", aevery_inverse: "lanterns", everya_inverse: "lanterns", audio: "f9-default.m4a"},
+      {type: "filler", item: "filler10", aevery_surface: "lanterns", aevery_inverse: "lanterns", everya_inverse: "lanterns", audio: "f10-default.m4a"},
+      {type: "filler", item: "filler11", aevery_surface: "lanterns", aevery_inverse: "lanterns", everya_inverse: "lanterns", audio: "f11-default.m4a"},
+      {type: "filler", item: "filler12", aevery_surface: "lanterns", aevery_inverse: "lanterns", everya_inverse: "lanterns", audio: "f12-default.m4a"},
+      {type: "filler", item: "filler13", aevery_surface: "lanterns", aevery_inverse: "lanterns", everya_inverse: "lanterns", audio: "f13-default.m4a"},
+
     ],
 
     //this gets run only at the beginning of the block
