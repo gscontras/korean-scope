@@ -41,7 +41,7 @@ function make_slides(f) {
     /* trial information for this block
      (the variable 'stim' will change between each of these values,
       and for each of these, present_handle will be run.) */
-    present : [
+    present : _.shuffle([
       {type: "test", item: "1-leaning", aevery_surface: "1-leaning-aevery-surface", aevery_inverse: "1-leaning-aevery-inverse", everya_inverse: "1-leaning-everya-inverse"},
       {type: "test", item: "2-fishing", aevery_surface: "2-fishing-aevery-surface", aevery_inverse: "2-fishing-aevery-inverse", everya_inverse: "2-fishing-everya-inverse"},
       {type: "test", item: "3-fish pole", aevery_surface: "3-fishpole-aevery-surface", aevery_inverse: "3-fishpole-aevery-inverse", everya_inverse: "3-fishpole-everya-inverse"},
@@ -50,21 +50,21 @@ function make_slides(f) {
       {type: "test", item: "6-biting", aevery_surface: "6-biting-aevery-surface", aevery_inverse: "6-biting-aevery-inverse", everya_inverse: "6-biting-everya-inverse"},
       {type: "test", item: "7-attacking", aevery_surface: "7-attacking-aevery-surface", aevery_inverse: "7-attacking-aevery-inverse", everya_inverse: "7-attacking-everya-inverse"},
       {type: "test", item: "8-petting", aevery_surface: "8-petting-aevery-surface", aevery_inverse: "8-petting-aevery-inverse", everya_inverse: "8-petting-everya-inverse"},
-      {type: "filler", item: "filler1", aevery_surface: "soccer", aevery_inverse: "soccer", everya_inverse: "soccer", audio: "f1-default.m4a"},
-      {type: "filler", item: "filler2", aevery_surface: "kicking", aevery_inverse: "kicking", everya_inverse: "kicking", audio: "f2-default.m4a"},
-      {type: "filler", item: "filler3", aevery_surface: "horses", aevery_inverse: "horses", everya_inverse: "horses", audio: "f3-default.m4a"},
-      {type: "filler", item: "filler4", aevery_surface: "rabbits", aevery_inverse: "rabbits", everya_inverse: "rabbits", audio: "f4-default.m4a"},
-      {type: "filler", item: "filler5", aevery_surface: "treasure", aevery_inverse: "treasure", everya_inverse: "treasure", audio: "f5-default.m4a"},
-      {type: "filler", item: "filler6", aevery_surface: "fishing", aevery_inverse: "fishing", everya_inverse: "fishing", audio: "f6-default.m4a"},
-      {type: "filler", item: "filler7", aevery_surface: "lanterns", aevery_inverse: "lanterns", everya_inverse: "lanterns", audio: "f7-default.m4a"},
-      {type: "filler", item: "filler8", aevery_surface: "treasure", aevery_inverse: "", everya_inverse: "", audio: "f8-default.m4a"},
-      {type: "filler", item: "filler9", aevery_surface: "lanterns", aevery_inverse: "lanterns", everya_inverse: "lanterns", audio: "f9-default.m4a"},
-      {type: "filler", item: "filler10", aevery_surface: "lanterns", aevery_inverse: "lanterns", everya_inverse: "lanterns", audio: "f10-default.m4a"},
-      {type: "filler", item: "filler11", aevery_surface: "lanterns", aevery_inverse: "lanterns", everya_inverse: "lanterns", audio: "f11-default.m4a"},
-      {type: "filler", item: "filler12", aevery_surface: "lanterns", aevery_inverse: "lanterns", everya_inverse: "lanterns", audio: "f12-default.m4a"},
-      {type: "filler", item: "filler13", aevery_surface: "lanterns", aevery_inverse: "lanterns", everya_inverse: "lanterns", audio: "f13-default.m4a"},
+      {type: "filler", item: "filler1", aevery_surface: "053", aevery_inverse: "053", everya_inverse: "053", audio: "f1"},
+      {type: "filler", item: "filler2", aevery_surface: "063", aevery_inverse: "063", everya_inverse: "063", audio: "f2"},
+      {type: "filler", item: "filler3", aevery_surface: "063", aevery_inverse: "063", everya_inverse: "063", audio: "f3"},
+      {type: "filler", item: "filler4", aevery_surface: "075", aevery_inverse: "075", everya_inverse: "075", audio: "f4"},
+      {type: "filler", item: "filler5", aevery_surface: "056", aevery_inverse: "056", everya_inverse: "056", audio: "f5"},
+      {type: "filler", item: "filler6", aevery_surface: "056", aevery_inverse: "056", everya_inverse: "056", audio: "f6"},
+      {type: "filler", item: "filler7", aevery_surface: "009", aevery_inverse: "009", everya_inverse: "009", audio: "f7"},
+      {type: "filler", item: "filler8", aevery_surface: "009", aevery_inverse: "009", everya_inverse: "009", audio: "f8"},
+      {type: "filler", item: "filler9", aevery_surface: "016", aevery_inverse: "016", everya_inverse: "016", audio: "f9"},
+      {type: "filler", item: "filler10", aevery_surface: "005", aevery_inverse: "005", everya_inverse: "005", audio: "f10"},
+      {type: "filler", item: "filler11", aevery_surface: "005", aevery_inverse: "005", everya_inverse: "005", audio: "f11"},
+      {type: "filler", item: "filler12", aevery_surface: "054", aevery_inverse: "054", everya_inverse: "054", audio: "f12"},
+      {type: "filler", item: "filler13", aevery_surface: "054", aevery_inverse: "054", everya_inverse: "054", audio: "f13"}
 
-    ],
+    ]),
 
     //this gets run only at the beginning of the block
     present_handle : function(stim) {
@@ -98,7 +98,7 @@ function make_slides(f) {
         audio_file = "audio/" + stim.item + "-" + order + "-" + exp.scrambled + ".m4a";
         document.getElementById('audio').src = audio_file;
       } else {
-        audio_file = this.stim.audio;
+        audio_file = "audio/" + stim.audio  + "-" + exp.scrambled + ".m4a";
         document.getElementById('audio').src = audio_file;
       }
 
@@ -155,11 +155,19 @@ function make_slides(f) {
       exp.subj_data = {
         language : $("#language").val(),
         enjoyment : $("#enjoyment").val(),
-        asses : $('input[name="assess"]:checked').val(),
+        assess : $('input[name="assess"]:checked').val(),
         age : $("#age").val(),
         gender : $("#gender").val(),
         education : $("#education").val(),
         comments : $("#comments").val(),
+        years : $("#years").val(),
+        family : $("#family").val(),
+        level : $("#level").val(),
+        describe : $("#describe").val(),
+        school : $("#school").val(),
+        classes : $("#classes").val(),
+        college : $("#college").val(),
+        lived : $("#lived").val()
       };
       exp.go(); //use exp.go() if and only if there is no "present" data.
     }
