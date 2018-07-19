@@ -1,0 +1,10 @@
+workerid,school,lived,family,language,level,enjoyment,gender,age,describe,comments,years,assess,classes,college,education
+0,small,under8,eng,,int,0,Male,25,KorKor,,midlive,Yes,yes,onesem,1
+1,small,under8,kor,,int,1,Male,29,KorKor,,midlive,Yes,yes,midsem,1
+2,small,under8,kor, 타밀 사람,int,0,Female,35,L2,Good one,midlive,Yes,yes,onesem,3
+3,,,,,,-1,,,,,,NA,,,-1
+4,,,,,,-1,,,,,,NA,,,-1
+5,,,,,,-1,,,,,,NA,,,-1
+6,none,neverlived,eng,,basic,0,Male,,KorEng,,neverlived,No,yes,nocollege,0
+7,small,under8,koreng,,int,1,Female,,KorKor,,midlive,Yes,yes,onesem,1
+8,none,neverlived,eng,,basic,0,Male,,KorEng,,neverlived,No,yes,nocollege,0

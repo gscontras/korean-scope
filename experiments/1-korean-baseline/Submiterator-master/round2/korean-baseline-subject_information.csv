@@ -1,0 +1,10 @@
+workerid,school,lived,family,language,level,enjoyment,gender,age,describe,comments,years,assess,classes,college,education
+0,small,under8,kor,Malayalam,advanced,1,Male,26,KorKor,Good,shortlive,Yes,yes,onesem,2
+1,small,neverlived,eng,English,basic,0,Male,26,KorEng,,neverlived,Yes,yes,nocollege,2
+2,,,,,,-1,,,,,,NA,,,-1
+3,mid,under8,eng,,int,1,Female,,L2,,shortlive,Yes,yes,midsem,1
+4,none,neverlived,eng,,basic,0,Male,,KorEng,,neverlived,Yes,yes,nocollege,0
+5,none,under8,eng,,basic,0,Male,26,KorEng,,neverlived,Yes,yes,midsem,3
+6,none,neverlived,eng,,basic,0,Male,,KorEng,,neverlived,Yes,yes,nocollege,0
+7,none,neverlived,eng,,basic,0,Male,,KorEng,,neverlived,No,yes,nocollege,0
+8,none,neverlived,eng,,basic,0,Male,,KorEng,,neverlived,Yes,yes,nocollege,0
