@@ -1,0 +1,10 @@
+workerid,school,lived,family,language,level,enjoyment,gender,age,describe,comments,years,assess,classes,college,education
+0,mid,both8,koreng,한국어,near native,0,Male,25,KorKor,,,Yes,yes,midsem,1
+1,small,over8,kor, 말라 얄람,near native,0,Female,27,KorKor,Good one,midlive,Yes,yes,midsem,3
+2,none,both8,kor,한국어,native,2,Male,20,KorEng,,mostlive,Yes,no,nocollege,2
+3,small,neverlived,koreng,Korean,near native,2,Male,22,KorEng,,neverlived,Yes,yes,nocollege,2
+4,most,both8,koreng,"korean, english",near native,1,Female,25,KorEng,n/a,mostlive,Yes,no,nocollege,3
+5,mid,over8,koreng,"영어, 한국어",near native,1,Female,24,L2,,mostlive,Yes,no,nocollege,3
+6,small,neverlived,koreng,,int,0,Male,,KorKor,,neverlived,No,yes,nocollege,3
+7,none,neverlived,eng,,basic,0,Male,,KorEng,,neverlived,No,yes,nocollege,0
+8,small,under8,kor,,int,0,Female,26,KorKor,,shortlive,Yes,yes,onesem,1

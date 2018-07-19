@@ -1,0 +1,10 @@
+workerid,school,lived,family,language,level,enjoyment,gender,age,describe,comments,years,assess,classes,college,education
+0,,neverlived,,,,-1,Female,,,,,No,,nocollege,-1
+1,small,over8,kor, 타밀 사람,advanced,0,Male,30,L2,Good,midlive,Yes,no,midsem,3
+2,small,under8,koreng,malayalam,int,1,Female,27,KorKor,good,midlive,Yes,yes,onesem,2
+3,most,both8,eng,Korean,native,2,Male,48,KorEng,It was good to pinpoint what I see.,mostlive,Yes,yes,mostsem,3
+4,small,under8,koreng,,int,0,Female,,KorKor,,shortlive,Yes,no,nocollege,1
+5,small,both8,koreng,,near native,1,Female,,KorKor,,neverlived,Yes,yes,nocollege,1
+6,none,neverlived,eng,,basic,0,Male,,KorEng,,neverlived,Yes,yes,nocollege,0
+7,none,neverlived,eng,,basic,0,Male,,KorEng,,neverlived,Yes,yes,nocollege,0
+8,none,neverlived,eng,,basic,0,Male,25,KorEng,,neverlived,Yes,yes,nocollege,0
