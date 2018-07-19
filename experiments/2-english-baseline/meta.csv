@@ -1,0 +1,129 @@
+old_item,image,audio,experiment,ORDER,INVERSE,,,new audio,,new image
+1,7,11,plain,EO,0,1-leaning,everya,1-leaning-everya-plain,surface,1-leaning-aevery-inverse
+1,8,11,plain,EO,1,1-leaning,everya,1-leaning-everya-plain,inverse,1-leaning-everya-inverse
+1,6,12,there,OE,0,1-leaning,aevery,1-leaning-aevery-there,surface,1-leaning-aevery-surface
+1,7,12,there,OE,1,1-leaning,aevery,1-leaning-aevery-there,inverse,1-leaning-aevery-inverse
+1,6,12,there,OE,0,1-leaning,aevery,1-leaning-aevery-there,surface,1-leaning-aevery-surface
+1,7,12,there,OE,1,1-leaning,aevery,1-leaning-aevery-there,inverse,1-leaning-aevery-inverse
+1,6,13,plain,OE,0,1-leaning,aevery,1-leaning-aevery-plain,surface,1-leaning-aevery-surface
+1,7,13,plain,OE,1,1-leaning,aevery,1-leaning-aevery-plain,inverse,1-leaning-aevery-inverse
+1,7,40,one,EO,0,1-leaning,everya,1-leaning-everya-one,surface,1-leaning-aevery-inverse
+1,8,40,one,EO,1,1-leaning,everya,1-leaning-everya-one,inverse,1-leaning-everya-inverse
+1,6,41,thereone,OE,0,1-leaning,aevery,1-leaning-aevery-thereone,surface,1-leaning-aevery-surface
+1,7,41,thereone,OE,1,1-leaning,aevery,1-leaning-aevery-thereone,inverse,1-leaning-aevery-inverse
+1,6,41,thereone,OE,0,1-leaning,aevery,1-leaning-aevery-thereone,surface,1-leaning-aevery-surface
+1,7,41,thereone,OE,1,1-leaning,aevery,1-leaning-aevery-thereone,inverse,1-leaning-aevery-inverse
+1,6,42,one,OE,0,1-leaning,aevery,1-leaning-aevery-one,surface,1-leaning-aevery-surface
+1,7,42,one,OE,1,1-leaning,aevery,1-leaning-aevery-one,inverse,1-leaning-aevery-inverse
+2,15,14,plain,EO,0,2-fishing,everya,2-fishing-everya-plain,surface,2-fishing-aevery-inverse
+2,12,14,plain,EO,1,2-fishing,everya,2-fishing-everya-plain,inverse,2-fishing-everya-inverse
+2,49,15,there,OE,0,2-fishing,aevery,2-fishing-aevery-there,surface,2-fishing-aevery-surface
+2,15,15,there,OE,1,2-fishing,aevery,2-fishing-aevery-there,inverse,2-fishing-aevery-inverse
+2,49,15,there,OE,0,2-fishing,aevery,2-fishing-aevery-there,surface,2-fishing-aevery-surface
+2,15,15,there,OE,1,2-fishing,aevery,2-fishing-aevery-there,inverse,2-fishing-aevery-inverse
+2,49,16,plain,OE,0,2-fishing,aevery,2-fishing-aevery-plain,surface,2-fishing-aevery-surface
+2,15,16,plain,OE,1,2-fishing,aevery,2-fishing-aevery-plain,inverse,2-fishing-aevery-inverse
+2,15,43,one,EO,0,2-fishing,everya,2-fishing-everya-one,surface,2-fishing-aevery-inverse
+2,12,43,one,EO,1,2-fishing,everya,2-fishing-everya-one,inverse,2-fishing-everya-inverse
+2,49,44,thereone,OE,0,2-fishing,aevery,2-fishing-aevery-thereone,surface,2-fishing-aevery-surface
+2,15,44,thereone,OE,1,2-fishing,aevery,2-fishing-aevery-thereone,inverse,2-fishing-aevery-inverse
+2,49,44,thereone,OE,0,2-fishing,aevery,2-fishing-aevery-thereone,surface,2-fishing-aevery-surface
+2,15,44,thereone,OE,1,2-fishing,aevery,2-fishing-aevery-thereone,inverse,2-fishing-aevery-inverse
+2,49,45,one,OE,0,2-fishing,aevery,2-fishing-aevery-one,surface,2-fishing-aevery-surface
+2,15,45,one,OE,1,2-fishing,aevery,2-fishing-aevery-one,inverse,2-fishing-aevery-inverse
+3,15,17,plain,EO,0,3-fish pole,everya,3-fish pole-everya-plain,surface,3-fish pole-aevery-inverse
+3,13,17,plain,EO,1,3-fish pole,everya,3-fish pole-everya-plain,inverse,3-fish pole-everya-inverse
+3,18,18,there,OE,0,3-fish pole,aevery,3-fish pole-aevery-there,surface,3-fish pole-aevery-surface
+3,15,18,there,OE,1,3-fish pole,aevery,3-fish pole-aevery-there,inverse,3-fish pole-aevery-inverse
+3,18,18,there,OE,0,3-fish pole,aevery,3-fish pole-aevery-there,surface,3-fish pole-aevery-surface
+3,15,18,there,OE,1,3-fish pole,aevery,3-fish pole-aevery-there,inverse,3-fish pole-aevery-inverse
+3,18,19,plain,OE,0,3-fish pole,aevery,3-fish pole-aevery-plain,surface,3-fish pole-aevery-surface
+3,15,19,plain,OE,1,3-fish pole,aevery,3-fish pole-aevery-plain,inverse,3-fish pole-aevery-inverse
+3,15,46,one,EO,0,3-fish pole,everya,3-fish pole-everya-one,surface,3-fish pole-aevery-inverse
+3,13,46,one,EO,1,3-fish pole,everya,3-fish pole-everya-one,inverse,3-fish pole-everya-inverse
+3,18,47,thereone,OE,0,3-fish pole,aevery,3-fish pole-aevery-thereone,surface,3-fish pole-aevery-surface
+3,15,47,thereone,OE,1,3-fish pole,aevery,3-fish pole-aevery-thereone,inverse,3-fish pole-aevery-inverse
+3,18,47,thereone,OE,0,3-fish pole,aevery,3-fish pole-aevery-thereone,surface,3-fish pole-aevery-surface
+3,15,47,thereone,OE,1,3-fish pole,aevery,3-fish pole-aevery-thereone,inverse,3-fish pole-aevery-inverse
+3,18,48,one,OE,0,3-fish pole,aevery,3-fish pole-aevery-one,surface,3-fish pole-aevery-surface
+3,15,48,one,OE,1,3-fish pole,aevery,3-fish pole-aevery-one,inverse,3-fish pole-aevery-inverse
+4,19,20,plain,EO,0,4-feeding,everya,4-feeding-everya-plain,surface,4-feeding-aevery-inverse
+4,20,20,plain,EO,1,4-feeding,everya,4-feeding-everya-plain,inverse,4-feeding-everya-inverse
+4,21,21,there,OE,0,4-feeding,aevery,4-feeding-aevery-there,surface,4-feeding-aevery-surface
+4,19,21,there,OE,1,4-feeding,aevery,4-feeding-aevery-there,inverse,4-feeding-aevery-inverse
+4,21,21,there,OE,0,4-feeding,aevery,4-feeding-aevery-there,surface,4-feeding-aevery-surface
+4,19,21,there,OE,1,4-feeding,aevery,4-feeding-aevery-there,inverse,4-feeding-aevery-inverse
+4,21,22,plain,OE,0,4-feeding,aevery,4-feeding-aevery-plain,surface,4-feeding-aevery-surface
+4,19,22,plain,OE,1,4-feeding,aevery,4-feeding-aevery-plain,inverse,4-feeding-aevery-inverse
+4,19,49,one,EO,0,4-feeding,everya,4-feeding-everya-one,surface,4-feeding-aevery-inverse
+4,20,49,one,EO,1,4-feeding,everya,4-feeding-everya-one,inverse,4-feeding-everya-inverse
+4,21,50,thereone,OE,0,4-feeding,aevery,4-feeding-aevery-thereone,surface,4-feeding-aevery-surface
+4,19,50,thereone,OE,1,4-feeding,aevery,4-feeding-aevery-thereone,inverse,4-feeding-aevery-inverse
+4,21,50,thereone,OE,0,4-feeding,aevery,4-feeding-aevery-thereone,surface,4-feeding-aevery-surface
+4,19,50,thereone,OE,1,4-feeding,aevery,4-feeding-aevery-thereone,inverse,4-feeding-aevery-inverse
+4,21,51,one,OE,0,4-feeding,aevery,4-feeding-aevery-one,surface,4-feeding-aevery-surface
+4,19,51,one,OE,1,4-feeding,aevery,4-feeding-aevery-one,inverse,4-feeding-aevery-inverse
+5,26,23,plain,EO,0,5-bottle,everya,5-bottle-everya-plain,surface,5-bottle-aevery-inverse
+5,25,23,plain,EO,1,5-bottle,everya,5-bottle-everya-plain,inverse,5-bottle-everya-inverse
+5,27,24,there,OE,0,5-bottle,aevery,5-bottle-aevery-there,surface,5-bottle-aevery-surface
+5,26,24,there,OE,1,5-bottle,aevery,5-bottle-aevery-there,inverse,5-bottle-aevery-inverse
+5,27,24,there,OE,0,5-bottle,aevery,5-bottle-aevery-there,surface,5-bottle-aevery-surface
+5,26,24,there,OE,1,5-bottle,aevery,5-bottle-aevery-there,inverse,5-bottle-aevery-inverse
+5,27,25,plain,OE,0,5-bottle,aevery,5-bottle-aevery-plain,surface,5-bottle-aevery-surface
+5,26,25,plain,OE,1,5-bottle,aevery,5-bottle-aevery-plain,inverse,5-bottle-aevery-inverse
+5,26,52,one,EO,0,5-bottle,everya,5-bottle-everya-one,surface,5-bottle-aevery-inverse
+5,25,52,one,EO,1,5-bottle,everya,5-bottle-everya-one,inverse,5-bottle-everya-inverse
+5,27,53,thereone,OE,0,5-bottle,aevery,5-bottle-aevery-thereone,surface,5-bottle-aevery-surface
+5,26,53,thereone,OE,1,5-bottle,aevery,5-bottle-aevery-thereone,inverse,5-bottle-aevery-inverse
+5,27,53,thereone,OE,0,5-bottle,aevery,5-bottle-aevery-thereone,surface,5-bottle-aevery-surface
+5,26,53,thereone,OE,1,5-bottle,aevery,5-bottle-aevery-thereone,inverse,5-bottle-aevery-inverse
+5,27,54,one,OE,0,5-bottle,aevery,5-bottle-aevery-one,surface,5-bottle-aevery-surface
+5,26,54,one,OE,1,5-bottle,aevery,5-bottle-aevery-one,inverse,5-bottle-aevery-inverse
+6,36,26,plain,EO,0,6-biting,everya,6-biting-everya-plain,surface,6-biting-aevery-inverse
+6,37,26,plain,EO,1,6-biting,everya,6-biting-everya-plain,inverse,6-biting-everya-inverse
+6,40,27,there,OE,0,6-biting,aevery,6-biting-aevery-there,surface,6-biting-aevery-surface
+6,36,27,there,OE,1,6-biting,aevery,6-biting-aevery-there,inverse,6-biting-aevery-inverse
+6,40,27,there,OE,0,6-biting,aevery,6-biting-aevery-there,surface,6-biting-aevery-surface
+6,36,27,there,OE,1,6-biting,aevery,6-biting-aevery-there,inverse,6-biting-aevery-inverse
+6,40,28,plain,OE,0,6-biting,aevery,6-biting-aevery-plain,surface,6-biting-aevery-surface
+6,36,28,plain,OE,1,6-biting,aevery,6-biting-aevery-plain,inverse,6-biting-aevery-inverse
+6,36,55,one,EO,0,6-biting,everya,6-biting-everya-one,surface,6-biting-aevery-inverse
+6,37,55,one,EO,1,6-biting,everya,6-biting-everya-one,inverse,6-biting-everya-inverse
+6,40,56,thereone,OE,0,6-biting,aevery,6-biting-aevery-thereone,surface,6-biting-aevery-surface
+6,36,56,thereone,OE,1,6-biting,aevery,6-biting-aevery-thereone,inverse,6-biting-aevery-inverse
+6,40,56,thereone,OE,0,6-biting,aevery,6-biting-aevery-thereone,surface,6-biting-aevery-surface
+6,36,56,thereone,OE,1,6-biting,aevery,6-biting-aevery-thereone,inverse,6-biting-aevery-inverse
+6,40,57,one,OE,0,6-biting,aevery,6-biting-aevery-one,surface,6-biting-aevery-surface
+6,36,57,one,OE,1,6-biting,aevery,6-biting-aevery-one,inverse,6-biting-aevery-inverse
+7,33,29,plain,EO,0,7-attacking,everya,7-attacking-everya-plain,surface,7-attacking-aevery-inverse
+7,34,29,plain,EO,1,7-attacking,everya,7-attacking-everya-plain,inverse,7-attacking-everya-inverse
+7,35,30,there,OE,0,7-attacking,aevery,7-attacking-aevery-there,surface,7-attacking-aevery-surface
+7,33,30,there,OE,1,7-attacking,aevery,7-attacking-aevery-there,inverse,7-attacking-aevery-inverse
+7,35,30,there,OE,0,7-attacking,aevery,7-attacking-aevery-there,surface,7-attacking-aevery-surface
+7,33,30,there,OE,1,7-attacking,aevery,7-attacking-aevery-there,inverse,7-attacking-aevery-inverse
+7,35,31,plain,OE,0,7-attacking,aevery,7-attacking-aevery-plain,surface,7-attacking-aevery-surface
+7,33,31,plain,OE,1,7-attacking,aevery,7-attacking-aevery-plain,inverse,7-attacking-aevery-inverse
+7,33,58,one,EO,0,7-attacking,everya,7-attacking-everya-one,surface,7-attacking-aevery-inverse
+7,34,58,one,EO,1,7-attacking,everya,7-attacking-everya-one,inverse,7-attacking-everya-inverse
+7,35,59,thereone,OE,0,7-attacking,aevery,7-attacking-aevery-thereone,surface,7-attacking-aevery-surface
+7,33,59,thereone,OE,1,7-attacking,aevery,7-attacking-aevery-thereone,inverse,7-attacking-aevery-inverse
+7,35,59,thereone,OE,0,7-attacking,aevery,7-attacking-aevery-thereone,surface,7-attacking-aevery-surface
+7,33,59,thereone,OE,1,7-attacking,aevery,7-attacking-aevery-thereone,inverse,7-attacking-aevery-inverse
+7,35,60,one,OE,0,7-attacking,aevery,7-attacking-aevery-one,surface,7-attacking-aevery-surface
+7,33,60,one,OE,1,7-attacking,aevery,7-attacking-aevery-one,inverse,7-attacking-aevery-inverse
+8,70,32,plain,EO,0,8-petting,everya,8-petting-everya-plain,surface,8-petting-aevery-inverse
+8,69,32,plain,EO,1,8-petting,everya,8-petting-everya-plain,inverse,8-petting-everya-inverse
+8,71,33,there,OE,0,8-petting,aevery,8-petting-aevery-there,surface,8-petting-aevery-surface
+8,70,33,there,OE,1,8-petting,aevery,8-petting-aevery-there,inverse,8-petting-aevery-inverse
+8,71,33,there,OE,0,8-petting,aevery,8-petting-aevery-there,surface,8-petting-aevery-surface
+8,70,33,there,OE,1,8-petting,aevery,8-petting-aevery-there,inverse,8-petting-aevery-inverse
+8,71,34,plain,OE,0,8-petting,aevery,8-petting-aevery-plain,surface,8-petting-aevery-surface
+8,70,34,plain,OE,1,8-petting,aevery,8-petting-aevery-plain,inverse,8-petting-aevery-inverse
+8,70,61,one,EO,0,8-petting,everya,8-petting-everya-one,surface,8-petting-aevery-inverse
+8,69,61,one,EO,1,8-petting,everya,8-petting-everya-one,inverse,8-petting-everya-inverse
+8,71,62,thereone,OE,0,8-petting,aevery,8-petting-aevery-thereone,surface,8-petting-aevery-surface
+8,70,62,thereone,OE,1,8-petting,aevery,8-petting-aevery-thereone,inverse,8-petting-aevery-inverse
+8,71,62,thereone,OE,0,8-petting,aevery,8-petting-aevery-thereone,surface,8-petting-aevery-surface
+8,70,62,thereone,OE,1,8-petting,aevery,8-petting-aevery-thereone,inverse,8-petting-aevery-inverse
+8,71,63,one,OE,0,8-petting,aevery,8-petting-aevery-one,surface,8-petting-aevery-surface
+8,70,63,one,OE,1,8-petting,aevery,8-petting-aevery-one,inverse,8-petting-aevery-inverse
