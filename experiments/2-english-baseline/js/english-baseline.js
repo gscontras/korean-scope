@@ -144,7 +144,8 @@ function make_slides(f) {
         "item" : this.stim.item,
         "audio" : audio_file,
         "image" : image_src,
-        "subexperiment" : subexperiment
+        "subexperiment" : subexperiment,
+        "type" : this.stim.type
       });
     }
   });
