@@ -167,3 +167,24 @@ workerid,trial_type,image,order,item,scope,subexperiment,audio,type,response
 7,one_slider,images/2-fishing-everya-inverse.JPG,everya,2-fishing,inverse,plain,audio/2-fishing-everya-plain.mp3,test,0.27
 7,one_slider,images/3-fishpole-aevery-inverse.JPG,everya,3-fish pole,surface,plain,audio/3-fish pole-everya-plain.mp3,test,1
 7,one_slider,images/056.JPG,everya,filler5,inverse,plain,audio/03.mp3,filler,0.13
+8,one_slider,images/2-fishing-everya-inverse.JPG,everya,2-fishing,inverse,one,audio/2-fishing-everya-one.mp3,test,0.66
+8,one_slider,images/009.JPG,everya,filler8,surface,one,audio/37.mp3,filler,0
+8,one_slider,images/053.JPG,aevery,filler1,surface,one,audio/00.mp3,filler,1
+8,one_slider,images/4-feeding-aevery-inverse.JPG,everya,4-feeding,surface,one,audio/4-feeding-everya-one.mp3,test,1
+8,one_slider,images/056.JPG,aevery,filler5,surface,one,audio/03.mp3,filler,1
+8,one_slider,images/056.JPG,everya,filler6,inverse,plain,audio/36.mp3,filler,1
+8,one_slider,images/7-attacking-aevery-inverse.JPG,everya,7-attacking,surface,plain,audio/7-attacking-everya-plain.mp3,test,1
+8,one_slider,images/5-bottle-aevery-inverse.JPG,aevery,5-bottle,inverse,plain,audio/5-bottle-aevery-plain.mp3,test,0.27
+8,one_slider,images/063.JPG,everya,filler2,surface,one,audio/01.mp3,filler,1
+8,one_slider,images/054.JPG,aevery,filler13,surface,plain,audio/39.mp3,filler,0.13
+8,one_slider,images/075.JPG,aevery,filler4,surface,one,audio/02.mp3,filler,1
+8,one_slider,images/8-petting-aevery-inverse.JPG,everya,8-petting,surface,plain,audio/8-petting-everya-plain.mp3,test,0.11
+8,one_slider,images/1-leaning-everya-inverse.JPG,everya,1-leaning,inverse,one,audio/1-leaning-everya-one.mp3,test,0.81
+8,one_slider,images/016.JPG,aevery,filler9,inverse,there,audio/05.mp3,filler,0
+8,one_slider,images/3-fishpole-aevery-inverse.JPG,aevery,3-fish pole,inverse,one,audio/3-fish pole-aevery-one.mp3,test,0
+8,one_slider,images/063.JPG,aevery,filler3,surface,plain,audio/35.mp3,filler,1
+8,one_slider,images/6-biting-aevery-inverse.JPG,aevery,6-biting,inverse,there,audio/6-biting-aevery-there.mp3,test,0.14
+8,one_slider,images/054.JPG,aevery,filler12,surface,one,audio/07.mp3,filler,0.18
+8,one_slider,images/005.JPG,aevery,filler10,inverse,plain,audio/06.mp3,filler,0
+8,one_slider,images/005.JPG,aevery,filler11,inverse,thereone,audio/38.mp3,filler,0
+8,one_slider,images/009.JPG,aevery,filler7,inverse,thereone,audio/04.mp3,filler,0

@@ -1,0 +1,22 @@
+workerid,trial_type,image,order,item,scramble,scope,audio,type,response
+0,one_slider,images/4-feeding-aevery-surface.JPG,aevery,4-feeding,scrambled,surface,audio/4-feeding-aevery-scrambled.m4a,test,0.48
+0,one_slider,images/016.JPG,everya,filler9,scrambled,surface,audio/f9-scrambled.m4a,filler,0.57
+0,one_slider,images/054.JPG,everya,filler12,scrambled,surface,audio/f12-scrambled.m4a,filler,0.71
+0,one_slider,images/7-attacking-aevery-surface.JPG,aevery,7-attacking,scrambled,surface,audio/7-attacking-aevery-scrambled.m4a,test,0.78
+0,one_slider,images/075.JPG,everya,filler4,scrambled,inverse,audio/f4-scrambled.m4a,filler,0.46
+0,one_slider,images/005.JPG,aevery,filler10,scrambled,inverse,audio/f10-scrambled.m4a,filler,0.82
+0,one_slider,images/2-fishing-aevery-inverse.JPG,everya,2-fishing,scrambled,surface,audio/2-fishing-everya-scrambled.m4a,test,0.44
+0,one_slider,images/3-fishpole-aevery-surface.JPG,aevery,3-fish pole,scrambled,surface,audio/3-fish pole-aevery-scrambled.m4a,test,0.88
+0,one_slider,images/009.JPG,aevery,filler7,scrambled,surface,audio/f7-scrambled.m4a,filler,0.79
+0,one_slider,images/063.JPG,aevery,filler2,scrambled,inverse,audio/f2-scrambled.m4a,filler,0.53
+0,one_slider,images/1-leaning-aevery-inverse.JPG,aevery,1-leaning,scrambled,inverse,audio/1-leaning-aevery-scrambled.m4a,test,0.77
+0,one_slider,images/063.JPG,everya,filler3,scrambled,inverse,audio/f3-scrambled.m4a,filler,0.51
+0,one_slider,images/054.JPG,everya,filler13,scrambled,inverse,audio/f13-scrambled.m4a,filler,0.52
+0,one_slider,images/5-bottle-aevery-inverse.JPG,aevery,5-bottle,scrambled,inverse,audio/5-bottle-aevery-scrambled.m4a,test,0.56
+0,one_slider,images/6-biting-aevery-surface.JPG,aevery,6-biting,scrambled,surface,audio/6-biting-aevery-scrambled.m4a,test,0.34
+0,one_slider,images/056.JPG,everya,filler6,scrambled,inverse,audio/f6-scrambled.m4a,filler,0.64
+0,one_slider,images/009.JPG,everya,filler8,scrambled,surface,audio/f8-scrambled.m4a,filler,0.63
+0,one_slider,images/005.JPG,aevery,filler11,scrambled,inverse,audio/f11-scrambled.m4a,filler,0.6
+0,one_slider,images/053.JPG,aevery,filler1,scrambled,inverse,audio/f1-scrambled.m4a,filler,0.86
+0,one_slider,images/056.JPG,everya,filler5,scrambled,surface,audio/f5-scrambled.m4a,filler,0.71
+0,one_slider,images/8-petting-everya-inverse.JPG,everya,8-petting,scrambled,inverse,audio/8-petting-everya-scrambled.m4a,test,0.61
