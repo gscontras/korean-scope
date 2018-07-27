@@ -5,7 +5,7 @@ library(dplyr)
 library(lmerTest)
 #library(tidyr)
 
-#setwd("~/git/korean_scope/experiments/3-korean-baseline2/Submiterator-master")
+#setwd("~/Documents/git/korean-scope/experiments/3-korean-baseline2/Submiterator-master/")
 setwd("~/git/korean_scope/experiments/3-korean-baseline2/Submiterator-master")
 
 #### first run of experiment

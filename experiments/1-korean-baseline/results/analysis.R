@@ -5,7 +5,7 @@ library(dplyr)
 library(lmerTest)
 #library(tidyr)
 
-#setwd("~/Documents/git/spanish_adjectives/experiments/3-order-preference-expanded2/Submiterator-master")
+#setwd("~/Documents/git/korean-scope/experiments/1-korean-baseline/Submiterator-master/")
 setwd("~/git/korean_scope/experiments/1-korean-baseline/Submiterator-master")
 
 #### first run of experiment
