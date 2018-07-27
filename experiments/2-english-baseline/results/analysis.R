@@ -31,7 +31,7 @@ t$response = as.numeric(as.character(t$response))
 
 #summary(t) 
 
-length(unique(t$workerid))# 8 indicated "English" as native language
+length(unique(t$workerid))# 86 indicated "English" as native language
 
 ## eventually want to filter by fillers?
 
