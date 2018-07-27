@@ -1,2 +1,7 @@
 workerid,school,lived,family,language,level,enjoyment,gender,age,describe,comments,years,assess,classes,college,education
 0,none,under8,eng,yes,basic,1,Female,21,KorEng,good,shortlive,Yes,yes,onesem,1
+1,none,neverlived,eng,,basic,0,Male,,KorEng,,neverlived,NA,yes,nocollege,0
+2,small,under8,kor,,int,1,Female,,KorKor,,midlive,Yes,yes,midsem,2
+3,none,neverlived,eng,,basic,0,Male,,KorEng,,neverlived,NA,yes,nocollege,0
+4,none,neverlived,eng,,basic,0,Male,,KorEng,,neverlived,No,yes,nocollege,0
+5,none,neverlived,eng,,basic,0,Male,,KorEng,,neverlived,NA,yes,nocollege,0

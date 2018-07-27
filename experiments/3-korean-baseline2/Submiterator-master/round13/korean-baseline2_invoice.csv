@@ -1,5 +1,9 @@
 date,workerid,amount
-,,0.4
-,total paid to workers:,=SUM(c2:c2)
-,40% paid to Amazon:,=.4*c3
-,total:,=SUM(c3:c4
+Sun Jul 22 12:00:25 PDT 2018,A1OGMB9Q6H0YJ7,0.4
+Mon Jul 23 01:02:41 PDT 2018,A3V4NHV11LQ9E3,0.4
+Mon Jul 23 01:21:20 PDT 2018,A11T7A917PMNSX,0.4
+Thu Jul 26 09:53:29 PDT 2018,A1SZUK2NNAJ2HY,0.4
+Fri Jul 27 02:12:24 PDT 2018,ACU8RTAZQU1GP,0.4
+,total paid to workers:,=SUM(c2:c6)
+,40% paid to Amazon:,=.4*c7
+,total:,=SUM(c7:c8

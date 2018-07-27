@@ -1,2 +1,8 @@
-workerid
-0
+workerid,school,lived,family,language,level,enjoyment,gender,age,describe,comments,years,assess,classes,college,education
+0,none,neverlived,eng,,basic,0,Male,,KorEng,,neverlived,Yes,yes,nocollege,0
+1,none,neverlived,eng,,basic,0,Male,,KorEng,,neverlived,NA,yes,nocollege,0
+2,none,neverlived,eng,,basic,0,Male,23,KorEng,,neverlived,No,yes,nocollege,0
+3,most,both8,kor,,native,1,Male,24,KorEng,재밌었네요 ㅋㅋ 또 만들어주세요~,mostlive,Yes,yes,onesem,3
+4,mid,neverlived,eng,한국어,advanced,0,Female,,KorKor,XD,neverlived,No,yes,midsem,2
+5,mid,under8,koreng,Korean & English,advanced,1,Female,29,KorEng,,midlive,Yes,no,nocollege,3
+6,most,over8,koreng,한국어,native,1,Male,48,KorKor,,mostlive,Yes,yes,midsem,3

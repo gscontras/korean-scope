@@ -1,2 +1,4 @@
-workerid
-0
+workerid,school,lived,family,language,level,enjoyment,gender,age,describe,comments,years,assess,classes,college,education
+0,,,,,,-1,,,,,,NA,,,-1
+1,mid,neverlived,kor,234,advanced,1,Male,232,L2,asd,midlive,Yes,no,nocollege,1
+2,most,both8,koreng, Korean,int,2,Female,43,KorEng,,mostlive,Yes,no,nocollege,3

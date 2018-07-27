@@ -167,3 +167,24 @@ workerid,trial_type,image,order,item,scope,subexperiment,audio,type,response
 7,one_slider,images/4-feeding-aevery-surface.JPG,aevery,4-feeding,surface,thereone,audio/4-feeding-aevery-thereone.mp3,test,0.41
 7,one_slider,images/005.JPG,aevery,filler10,inverse,one,audio/06.mp3,filler,0
 7,one_slider,images/009.JPG,aevery,filler8,inverse,one,audio/37.mp3,filler,0
+8,one_slider,images/1-leaning-aevery-inverse.JPG,everya,1-leaning,surface,one,audio/1-leaning-everya-one.mp3,test,0.82
+8,one_slider,images/054.JPG,everya,filler12,surface,one,audio/07.mp3,filler,0.14
+8,one_slider,images/4-feeding-aevery-inverse.JPG,everya,4-feeding,surface,plain,audio/4-feeding-everya-plain.mp3,test,0.71
+8,one_slider,images/056.JPG,everya,filler6,inverse,one,audio/36.mp3,filler,0.8
+8,one_slider,images/075.JPG,aevery,filler4,inverse,one,audio/02.mp3,filler,0.95
+8,one_slider,images/054.JPG,aevery,filler13,inverse,one,audio/39.mp3,filler,0.26
+8,one_slider,images/6-biting-aevery-inverse.JPG,aevery,6-biting,inverse,there,audio/6-biting-aevery-there.mp3,test,0.16
+8,one_slider,images/009.JPG,aevery,filler8,inverse,there,audio/37.mp3,filler,0.03
+8,one_slider,images/063.JPG,aevery,filler2,surface,there,audio/01.mp3,filler,0.76
+8,one_slider,images/005.JPG,aevery,filler11,surface,there,audio/38.mp3,filler,0.01
+8,one_slider,images/3-fishpole-everya-inverse.JPG,everya,3-fish pole,inverse,plain,audio/3-fish pole-everya-plain.mp3,test,0.67
+8,one_slider,images/009.JPG,aevery,filler7,inverse,one,audio/04.mp3,filler,0.02
+8,one_slider,images/005.JPG,aevery,filler10,surface,there,audio/06.mp3,filler,0.01
+8,one_slider,images/2-fishing-aevery-inverse.JPG,everya,2-fishing,surface,plain,audio/2-fishing-everya-plain.mp3,test,0.92
+8,one_slider,images/5-bottle-aevery-surface.JPG,aevery,5-bottle,surface,plain,audio/5-bottle-aevery-plain.mp3,test,0.83
+8,one_slider,images/8-petting-everya-inverse.JPG,everya,8-petting,inverse,one,audio/8-petting-everya-one.mp3,test,0.84
+8,one_slider,images/063.JPG,aevery,filler3,inverse,there,audio/35.mp3,filler,0.61
+8,one_slider,images/016.JPG,everya,filler9,inverse,plain,audio/05.mp3,filler,0.03
+8,one_slider,images/056.JPG,everya,filler5,inverse,one,audio/03.mp3,filler,0.77
+8,one_slider,images/053.JPG,aevery,filler1,surface,thereone,audio/00.mp3,filler,0.96
+8,one_slider,images/7-attacking-aevery-surface.JPG,aevery,7-attacking,surface,there,audio/7-attacking-aevery-there.mp3,test,0.84

@@ -1,2 +1,6 @@
-workerid
-0
+workerid,school,lived,family,language,level,enjoyment,gender,age,describe,comments,years,assess,classes,college,education
+0,small,under8,koreng,Blue,near native,2,Female,Ari,KorKor,,neverlived,No,no,onesem,2
+1,none,neverlived,eng,,basic,0,Male,,KorEng,,neverlived,No,yes,nocollege,0
+2,none,neverlived,eng,,basic,0,Male,,KorEng,,neverlived,NA,yes,nocollege,0
+3,none,neverlived,eng,,basic,0,Male,23,KorEng,,neverlived,No,yes,nocollege,0
+4,most,over8,koreng,KOREAN,advanced,1,Male,32,L2,SIMPLY SUPER,midlive,No,yes,midsem,3

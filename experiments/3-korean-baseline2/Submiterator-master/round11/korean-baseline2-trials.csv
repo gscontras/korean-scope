@@ -1,2 +1,22 @@
-workerid
-0
+workerid,trial_type,image,order,item,scramble,scope,audio,type,response
+0,one_slider,images/075.JPG,aevery,filler4,default,inverse,audio/f4-default.m4a,filler,0
+0,one_slider,images/2-fishing-aevery-inverse.JPG,aevery,2-fishing,default,inverse,audio/2-fishing-aevery-default.m4a,test,0
+0,one_slider,images/016.JPG,aevery,filler9,default,surface,audio/f9-default.m4a,filler,0
+0,one_slider,images/1-leaning-aevery-inverse.JPG,everya,1-leaning,default,surface,audio/1-leaning-everya-default.m4a,test,0
+0,one_slider,images/063.JPG,aevery,filler2,default,surface,audio/f2-default.m4a,filler,1
+0,one_slider,images/054.JPG,everya,filler12,default,inverse,audio/f12-default.m4a,filler,0
+0,one_slider,images/6-biting-aevery-surface.JPG,aevery,6-biting,default,surface,audio/6-biting-aevery-default.m4a,test,1
+0,one_slider,images/056.JPG,everya,filler5,default,inverse,audio/f5-default.m4a,filler,0
+0,one_slider,images/005.JPG,aevery,filler11,default,inverse,audio/f11-default.m4a,filler,0
+0,one_slider,images/009.JPG,everya,filler8,default,inverse,audio/f8-default.m4a,filler,0
+0,one_slider,images/054.JPG,aevery,filler13,default,inverse,audio/f13-default.m4a,filler,0
+0,one_slider,images/056.JPG,everya,filler6,default,surface,audio/f6-default.m4a,filler,0
+0,one_slider,images/005.JPG,aevery,filler10,default,inverse,audio/f10-default.m4a,filler,0
+0,one_slider,images/5-bottle-everya-inverse.JPG,everya,5-bottle,default,inverse,audio/5-bottle-everya-default.m4a,test,1
+0,one_slider,images/4-feeding-everya-inverse.JPG,everya,4-feeding,default,inverse,audio/4-feeding-everya-default.m4a,test,1
+0,one_slider,images/8-petting-aevery-inverse.JPG,aevery,8-petting,default,inverse,audio/8-petting-aevery-default.m4a,test,0
+0,one_slider,images/053.JPG,aevery,filler1,default,inverse,audio/f1-default.m4a,filler,1
+0,one_slider,images/009.JPG,aevery,filler7,default,inverse,audio/f7-default.m4a,filler,0
+0,one_slider,images/063.JPG,aevery,filler3,default,surface,audio/f3-default.m4a,filler,0
+0,one_slider,images/7-attacking-aevery-surface.JPG,aevery,7-attacking,default,surface,audio/7-attacking-aevery-default.m4a,test,0
+0,one_slider,images/3-fishpole-everya-inverse.JPG,everya,3-fish pole,default,inverse,audio/3-fish pole-everya-default.m4a,test,1

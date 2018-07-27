@@ -1,2 +1,4 @@
 workerid,school,lived,family,language,level,enjoyment,gender,age,describe,comments,years,assess,classes,college,education
 0,most,both8,koreng,"English, Korean",near native,1,Female,36,KorEng,,mostlive,Yes,no,nocollege,3
+1,small,over8,kor,,advanced,1,Male,50,KorKor,,midlive,No,yes,midsem,3
+2,small,under8,koreng,,advanced,0,Female,,KorKor,,shortlive,Yes,yes,onesem,1

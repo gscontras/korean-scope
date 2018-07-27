@@ -1,2 +1,5 @@
-workerid
-0
+workerid,school,lived,family,language,level,enjoyment,gender,age,describe,comments,years,assess,classes,college,education
+0,,neverlived,koreng,korean,advanced,1,Female,20,KorEng,,neverlived,Yes,no,,2
+1,mid,over8,kor,English,advanced,1,Male,19,KorKor,매우 흥미로운 설문 조사,midlive,Yes,yes,onesem,3
+2,mid,neverlived,kor,english,basic,0,Male,24,L2,,neverlived,Yes,yes,onesem,2
+3,small,under8,koreng,A3BWF4LL3X9V22,advanced,2,Female,29,L2,,shortlive,No,no,onesem,3

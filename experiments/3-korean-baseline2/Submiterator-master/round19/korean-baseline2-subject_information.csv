@@ -1,2 +1,5 @@
-workerid
-0
+workerid,school,lived,family,language,level,enjoyment,gender,age,describe,comments,years,assess,classes,college,education
+0,mid,under8,koreng,English,near native,1,Male,25,L2,,midlive,Yes,no,onesem,3
+1,none,neverlived,eng,한글,int,1,Male,37,KorEng,,neverlived,Yes,no,nocollege,3
+2,none,neverlived,eng,,basic,0,Male,,KorEng,,neverlived,No,yes,nocollege,0
+3,small,under8,other,"ENGLISH, SPANISH",advanced,1,Female,20,L2,IT WAS  HARD EXPERIMENT.,neverlived,No,yes,onesem,2

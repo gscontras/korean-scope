@@ -1,2 +1,5 @@
 workerid,school,lived,family,language,level,enjoyment,gender,age,describe,comments,years,assess,classes,college,education
 0,,neverlived,eng,English,advanced,0,Male,27,otherL2,,neverlived,Yes,yes,mostsem,3
+1,most,both8,koreng,한국어 영어,advanced,2,Male,31,KorEng,한국어를 영어로 직역한 문장이 얼마나 옯바른지를 테스트한 HIT인것 같네요. ,mostlive,Yes,no,nocollege,3
+2,most,over8,kor,한국어,int,2,Male,27,KorEng,,mostlive,Yes,no,onesem,3
+3,none,neverlived,eng,,basic,0,Male,,KorEng,,neverlived,No,yes,nocollege,0

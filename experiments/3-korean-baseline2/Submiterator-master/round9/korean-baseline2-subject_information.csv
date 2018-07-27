@@ -1,2 +1,4 @@
-workerid
-0
+workerid,school,lived,family,language,level,enjoyment,gender,age,describe,comments,years,assess,classes,college,education
+0,small,over8,kor,,advanced,0,Female,58,L2,,midlive,Yes,yes,midsem,2
+1,none,neverlived,eng,,basic,0,Male,26,KorEng,,neverlived,NA,yes,nocollege,0
+2,small,over8,koreng,INDIA,advanced,1,Female,25,L2,GOOD SURVEY...,shortlive,No,yes,midsem,2

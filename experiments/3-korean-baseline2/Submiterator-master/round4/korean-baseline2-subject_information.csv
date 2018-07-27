@@ -1,2 +1,10 @@
-workerid
-0
+workerid,school,lived,family,language,level,enjoyment,gender,age,describe,comments,years,assess,classes,college,education
+0,most,both8,koreng,한국어,advanced,1,Female,45,KorKor,,mostlive,Yes,yes,mostsem,3
+1,small,neverlived,eng,English,basic,2,Male,24,L2,,neverlived,Yes,no,midsem,2
+2,none,neverlived,eng,,basic,0,Male,,KorKor,,neverlived,No,yes,nocollege,0
+3,none,neverlived,eng,,basic,0,Male,,KorEng,,neverlived,NA,yes,nocollege,0
+4,none,neverlived,eng,,basic,0,Male,,KorEng,,neverlived,Yes,yes,nocollege,0
+5,most,both8,kor,Korean,advanced,0,Female,46,KorKor,Interesting study!,mostlive,Yes,no,nocollege,3
+6,small,under8,,,,1,Male,,KorKor,,shortlive,No,yes,nocollege,1
+7,most,both8,kor,한국어,native,2,Male,24,KorKor,그림이 헷갈린게 몇개 있었지만 (들고있는게 물고긴가 아닌가) 재미있었습니다. 감사합니다. ,mostlive,Yes,no,nocollege,3
+8,mid,over8,koreng,,advanced,2,Male,,KorKor,,midlive,Yes,yes,mostsem,0
