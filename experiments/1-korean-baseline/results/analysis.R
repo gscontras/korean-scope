@@ -26,23 +26,17 @@ t <- d
 # only look at "both8" for lived
 t = t[t$lived=="both8",]
 
-# only look at "español" as the native language
-t = t[t$language!="English"&t$language!="english"&!is.na(t$language)&t$language!=""&t$language!="gbhj",]
+# must have provided a native langauge
+t = t[t$language!="",]
 
 # no self-described L2 speakers
 t = t[t$describe!="L2",]
-
-# t = d[d$language=="Espanol"|d$language=="espanol"|d$language=="espanol "|
-#         d$language==" Español"|d$language=="Española"|d$language=="spanish"|d$language=="Castellano"|
-#         d$language=="Español, de España"|d$language=="SPANISH"|d$language=="castellano"|
-#         d$language=="Español, Catalan"|d$language=="espanol, vasco"|d$language=="Español e italiano"|
-#         d$language=="ESPAÑOL E ITALIANO",]
 
 t$response = as.numeric(as.character(t$response))
 
 #summary(t) 
 
-length(unique(t$workerid))# 48 indicated "spanish" as native language
+length(unique(t$workerid))# n=4
 
 ## eventually want to filter by fillers?
 
@@ -51,3 +45,4 @@ f = t[t$type=="test",]
 table(f$order,f$scope,f$scramble)
 
 agr = aggregate(response~order*scope*scramble,data=f,FUN=mean)
+agr
