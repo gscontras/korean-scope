@@ -62,3 +62,45 @@ workerid,trial_type,image,order,item,scramble,scope,audio,type,response
 2,one_slider,images/3-fishpole-aevery-inverse.JPG,everya,3-fish pole,default,surface,audio/3-fish pole-everya-default.m4a,test,0.84
 2,one_slider,images/2-fishing-aevery-inverse.JPG,everya,2-fishing,default,surface,audio/2-fishing-everya-default.m4a,test,0.86
 2,one_slider,images/8-petting-aevery-surface.JPG,aevery,8-petting,default,surface,audio/8-petting-aevery-default.m4a,test,0.81
+3,one_slider,images/054.JPG,aevery,filler13,scrambled,inverse,audio/f13-scrambled.m4a,filler,0.73
+3,one_slider,images/1-leaning-aevery-inverse.JPG,aevery,1-leaning,scrambled,inverse,audio/1-leaning-aevery-scrambled.m4a,test,0.76
+3,one_slider,images/009.JPG,aevery,filler8,scrambled,surface,audio/f8-scrambled.m4a,filler,0.71
+3,one_slider,images/3-fishpole-aevery-inverse.JPG,aevery,3-fish pole,scrambled,inverse,audio/3-fish pole-aevery-scrambled.m4a,test,0.63
+3,one_slider,images/4-feeding-everya-inverse.JPG,everya,4-feeding,scrambled,inverse,audio/4-feeding-everya-scrambled.m4a,test,0.65
+3,one_slider,images/7-attacking-everya-inverse.JPG,everya,7-attacking,scrambled,inverse,audio/7-attacking-everya-scrambled.m4a,test,0.71
+3,one_slider,images/009.JPG,aevery,filler7,scrambled,surface,audio/f7-scrambled.m4a,filler,0.76
+3,one_slider,images/2-fishing-everya-inverse.JPG,everya,2-fishing,scrambled,inverse,audio/2-fishing-everya-scrambled.m4a,test,0.73
+3,one_slider,images/5-bottle-aevery-inverse.JPG,everya,5-bottle,scrambled,surface,audio/5-bottle-everya-scrambled.m4a,test,0.58
+3,one_slider,images/056.JPG,aevery,filler5,scrambled,inverse,audio/f5-scrambled.m4a,filler,0.69
+3,one_slider,images/054.JPG,aevery,filler12,scrambled,surface,audio/f12-scrambled.m4a,filler,0.64
+3,one_slider,images/005.JPG,everya,filler11,scrambled,surface,audio/f11-scrambled.m4a,filler,0.69
+3,one_slider,images/053.JPG,everya,filler1,scrambled,surface,audio/f1-scrambled.m4a,filler,0.53
+3,one_slider,images/056.JPG,everya,filler6,scrambled,inverse,audio/f6-scrambled.m4a,filler,0.58
+3,one_slider,images/6-biting-aevery-surface.JPG,aevery,6-biting,scrambled,surface,audio/6-biting-aevery-scrambled.m4a,test,0.74
+3,one_slider,images/063.JPG,everya,filler2,scrambled,surface,audio/f2-scrambled.m4a,filler,0.68
+3,one_slider,images/8-petting-aevery-inverse.JPG,aevery,8-petting,scrambled,inverse,audio/8-petting-aevery-scrambled.m4a,test,0.69
+3,one_slider,images/005.JPG,everya,filler10,scrambled,inverse,audio/f10-scrambled.m4a,filler,0.75
+3,one_slider,images/063.JPG,everya,filler3,scrambled,surface,audio/f3-scrambled.m4a,filler,0.73
+3,one_slider,images/075.JPG,everya,filler4,scrambled,inverse,audio/f4-scrambled.m4a,filler,0.74
+3,one_slider,images/016.JPG,aevery,filler9,scrambled,surface,audio/f9-scrambled.m4a,filler,0.7
+4,one_slider,images/005.JPG,aevery,filler11,default,surface,audio/f11-default.m4a,filler,0.68
+4,one_slider,images/5-bottle-aevery-inverse.JPG,aevery,5-bottle,default,inverse,audio/5-bottle-aevery-default.m4a,test,0.75
+4,one_slider,images/016.JPG,aevery,filler9,default,inverse,audio/f9-default.m4a,filler,0.88
+4,one_slider,images/8-petting-aevery-surface.JPG,aevery,8-petting,default,surface,audio/8-petting-aevery-default.m4a,test,0.85
+4,one_slider,images/005.JPG,everya,filler10,default,surface,audio/f10-default.m4a,filler,0.96
+4,one_slider,images/054.JPG,everya,filler13,default,inverse,audio/f13-default.m4a,filler,0.71
+4,one_slider,images/063.JPG,aevery,filler3,default,inverse,audio/f3-default.m4a,filler,0.78
+4,one_slider,images/009.JPG,everya,filler8,default,surface,audio/f8-default.m4a,filler,0.82
+4,one_slider,images/7-attacking-aevery-inverse.JPG,aevery,7-attacking,default,inverse,audio/7-attacking-aevery-default.m4a,test,0.79
+4,one_slider,images/056.JPG,aevery,filler6,default,surface,audio/f6-default.m4a,filler,0.78
+4,one_slider,images/009.JPG,everya,filler7,default,inverse,audio/f7-default.m4a,filler,0.81
+4,one_slider,images/2-fishing-aevery-inverse.JPG,everya,2-fishing,default,surface,audio/2-fishing-everya-default.m4a,test,0.7
+4,one_slider,images/063.JPG,everya,filler2,default,surface,audio/f2-default.m4a,filler,0.74
+4,one_slider,images/3-fishpole-aevery-surface.JPG,aevery,3-fish pole,default,surface,audio/3-fish pole-aevery-default.m4a,test,0.79
+4,one_slider,images/056.JPG,everya,filler5,default,inverse,audio/f5-default.m4a,filler,0.76
+4,one_slider,images/053.JPG,everya,filler1,default,inverse,audio/f1-default.m4a,filler,0.89
+4,one_slider,images/6-biting-aevery-surface.JPG,aevery,6-biting,default,surface,audio/6-biting-aevery-default.m4a,test,0.78
+4,one_slider,images/075.JPG,everya,filler4,default,surface,audio/f4-default.m4a,filler,0.87
+4,one_slider,images/1-leaning-aevery-surface.JPG,aevery,1-leaning,default,surface,audio/1-leaning-aevery-default.m4a,test,0.77
+4,one_slider,images/4-feeding-everya-inverse.JPG,everya,4-feeding,default,inverse,audio/4-feeding-everya-default.m4a,test,0.75
+4,one_slider,images/054.JPG,aevery,filler12,default,inverse,audio/f12-default.m4a,filler,0.82

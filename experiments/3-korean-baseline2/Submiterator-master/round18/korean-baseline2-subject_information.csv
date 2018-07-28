@@ -3,3 +3,4 @@ workerid,school,lived,family,language,level,enjoyment,gender,age,describe,commen
 1,none,neverlived,eng,,basic,1,Male,,KorEng,,neverlived,No,yes,nocollege,0
 2,none,neverlived,eng,,basic,0,Male,25,KorEng,,neverlived,No,yes,nocollege,0
 3,none,neverlived,eng,,basic,0,Male,,KorEng,,neverlived,NA,yes,onesem,1
+4,small,under8,kor,yes,int,0,Female,25,KorEng,good,shortlive,No,yes,onesem,1
