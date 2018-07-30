@@ -6,6 +6,8 @@ Sun Jul 22 23:52:39 PDT 2018,AIZN36GWIY76,0.4
 Mon Jul 23 00:53:03 PDT 2018,AONB1TKWEWEFK,0.4
 Mon Jul 23 01:00:09 PDT 2018,AN78TM59RETDQ,0.4
 Sat Jul 28 07:23:11 PDT 2018,A1FEQPNF3GMLG8,0.4
-,total paid to workers:,=SUM(c2:c8)
-,40% paid to Amazon:,=.4*c9
-,total:,=SUM(c9:c10
+Sun Jul 29 22:53:09 PDT 2018,A29GLTXKFWGH1Z,0.4
+Sun Jul 29 23:06:04 PDT 2018,A1YRC4ZIXETR6C,0.4
+,total paid to workers:,=SUM(c2:c10)
+,40% paid to Amazon:,=.4*c11
+,total:,=SUM(c11:c12

@@ -21,13 +21,15 @@ d = subset(df1, select=c("workerid","order","item","scramble","scope", "type", "
 # re-factorize
 d[] <- lapply( d, factor) 
 
+length(unique(d$workerid))# n=119
+
 t <- d
 
 # only look at "both8" for lived
 t = t[t$lived=="both8",]
 
 # must have provided a native langauge
-t = t[t$language!="",]
+t = t[t$language!=""&t$language!="esañol",]
 
 # no self-described L2 speakers
 t = t[t$describe!="L2",]
@@ -36,7 +38,7 @@ t$response = as.numeric(as.character(t$response))
 
 #summary(t) 
 
-length(unique(t$workerid))# n=11
+length(unique(t$workerid))# n=12
 
 ## eventually want to filter by fillers?
 

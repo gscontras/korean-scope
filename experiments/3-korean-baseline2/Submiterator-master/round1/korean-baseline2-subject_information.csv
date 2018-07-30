@@ -6,3 +6,6 @@ workerid,school,lived,family,language,level,enjoyment,gender,age,describe,commen
 4,none,neverlived,eng,,basic,0,Male,,KorEng,,neverlived,No,yes,nocollege,0
 5,none,neverlived,eng,,basic,0,Male,,KorEng,,neverlived,NA,yes,nocollege,0
 6,mid,over8,koreng,korean,near native,1,Male,32,L2,simply super,mostlive,No,yes,midsem,3
+7,mid,over8,koreng,ENGLISH,int,1,Female,24,L2,NICE,shortlive,No,no,onesem,3
+8,small,under8,koreng,영어,int,2,Female,23,L2,"좋은
+",mostlive,Yes,yes,mostsem,2
