@@ -41,31 +41,31 @@ function make_slides(f) {
     /* trial information for this block
      (the variable 'stim' will change between each of these values,
       and for each of these, present_handle will be run.) */
-    present : [
+    present : _.shuffle([
       {type: "test", item: "1-leaning", aevery_surface: "1-leaning-aevery-surface", aevery_inverse: "1-leaning-aevery-inverse", everya_inverse: "1-leaning-everya-inverse"},
       {type: "test", item: "2-fishing", aevery_surface: "2-fishing-aevery-surface", aevery_inverse: "2-fishing-aevery-inverse", everya_inverse: "2-fishing-everya-inverse"},
-      {type: "test", item: "3-fishpole", aevery_surface: "3-fishpole-aevery-surface", aevery_inverse: "3-fishpole-aevery-inverse", everya_inverse: "3-fishpole-everya-inverse"},
+      {type: "test", item: "3-fish pole", aevery_surface: "3-fishpole-aevery-surface", aevery_inverse: "3-fishpole-aevery-inverse", everya_inverse: "3-fishpole-everya-inverse"},
       {type: "test", item: "4-feeding", aevery_surface: "4-feeding-aevery-surface", aevery_inverse: "4-feeding-aevery-inverse", everya_inverse: "4-feeding-everya-inverse"},
-      {type: "test" item: "5-bottle", aevery_surface: "5-bottle-aevery-surface", aevery_inverse: "5-bottle-aevery-inverse", everya_inverse: "5-bottle-everya-inverse"},
-      {type: "test" item: "6-biting", aevery_surface: "6-biting-aevery-surface", aevery_inverse: "6-biting-aevery-inverse", everya_inverse: "6-biting-everya-inverse"},
-      {type: "test" item: "7-attacking", aevery_surface: "7-attacking-aevery-surface", aevery_inverse: "7-attacking-aevery-inverse", everya_inverse: "7-attacking-everya-inverse"},
-      {type: "test" item: "8-petting", aevery_surface: "8-petting-aevery-surface", aevery_inverse: "8-petting-aevery-inverse", everya_inverse: "8-petting-everya-inverse"}
-      {type: "filler", item: "filler1", aevery_surface: "053", aevery_inverse: "053", everya_inverse: "053", audio: "f1"},
-      {type: "filler", item: "filler2", aevery_surface: "063", aevery_inverse: "063", everya_inverse: "063", audio: "f2"},
-      {type: "filler", item: "filler3", aevery_surface: "063", aevery_inverse: "063", everya_inverse: "063", audio: "f3"},
-      {type: "filler", item: "filler4", aevery_surface: "075", aevery_inverse: "075", everya_inverse: "075", audio: "f4"},
-      {type: "filler", item: "filler5", aevery_surface: "056", aevery_inverse: "056", everya_inverse: "056", audio: "f5"},
-      {type: "filler", item: "filler6", aevery_surface: "056", aevery_inverse: "056", everya_inverse: "056", audio: "f6"},
-      {type: "filler", item: "filler7", aevery_surface: "009", aevery_inverse: "009", everya_inverse: "009", audio: "f7"},
-      {type: "filler", item: "filler8", aevery_surface: "009", aevery_inverse: "009", everya_inverse: "009", audio: "f8"},
-      {type: "filler", item: "filler9", aevery_surface: "016", aevery_inverse: "016", everya_inverse: "016", audio: "f9"},
-      {type: "filler", item: "filler10", aevery_surface: "005", aevery_inverse: "005", everya_inverse: "005", audio: "f10"},
-      {type: "filler", item: "filler11", aevery_surface: "005", aevery_inverse: "005", everya_inverse: "005", audio: "f11"},
-      {type: "filler", item: "filler12", aevery_surface: "054", aevery_inverse: "054", everya_inverse: "054", audio: "f12"},
-      {type: "filler", item: "filler13", aevery_surface: "054", aevery_inverse: "054", everya_inverse: "054", audio: "f13"}
+      {type: "test", item: "5-bottle", aevery_surface: "5-bottle-aevery-surface", aevery_inverse: "5-bottle-aevery-inverse", everya_inverse: "5-bottle-everya-inverse"},
+      {type: "test", item: "6-biting", aevery_surface: "6-biting-aevery-surface", aevery_inverse: "6-biting-aevery-inverse", everya_inverse: "6-biting-everya-inverse"},
+      {type: "test", item: "7-attacking", aevery_surface: "7-attacking-aevery-surface", aevery_inverse: "7-attacking-aevery-inverse", everya_inverse: "7-attacking-everya-inverse"},
+      {type: "test", item: "8-petting", aevery_surface: "8-petting-aevery-surface", aevery_inverse: "8-petting-aevery-inverse", everya_inverse: "8-petting-everya-inverse"},
+      {type: "filler", item: "filler1", aevery_surface: "053", aevery_inverse: "053", everya_inverse: "053", audio: "00"},
+      {type: "filler", item: "filler2", aevery_surface: "063", aevery_inverse: "063", everya_inverse: "063", audio: "01"},
+      {type: "filler", item: "filler3", aevery_surface: "063", aevery_inverse: "063", everya_inverse: "063", audio: "35"},
+      {type: "filler", item: "filler4", aevery_surface: "075", aevery_inverse: "075", everya_inverse: "075", audio: "02"},
+      {type: "filler", item: "filler5", aevery_surface: "056", aevery_inverse: "056", everya_inverse: "056", audio: "03"},
+      {type: "filler", item: "filler6", aevery_surface: "056", aevery_inverse: "056", everya_inverse: "056", audio: "36"},
+      {type: "filler", item: "filler7", aevery_surface: "009", aevery_inverse: "009", everya_inverse: "009", audio: "04"},
+      {type: "filler", item: "filler8", aevery_surface: "009", aevery_inverse: "009", everya_inverse: "009", audio: "37"},
+      {type: "filler", item: "filler9", aevery_surface: "016", aevery_inverse: "016", everya_inverse: "016", audio: "05"},
+      {type: "filler", item: "filler10", aevery_surface: "005", aevery_inverse: "005", everya_inverse: "005", audio: "06"},
+      {type: "filler", item: "filler11", aevery_surface: "005", aevery_inverse: "005", everya_inverse: "005", audio: "38"},
+      {type: "filler", item: "filler12", aevery_surface: "054", aevery_inverse: "054", everya_inverse: "054", audio: "07"},
+      {type: "filler", item: "filler13", aevery_surface: "054", aevery_inverse: "054", everya_inverse: "054", audio: "39"}
 
       // {url: "audio/1-leaning-aevery-default.m4a"}
-    ],
+    ]),
 
     //this gets run only at the beginning of the block
     present_handle : function(stim) {
@@ -75,7 +75,9 @@ function make_slides(f) {
       this.stim = stim; //I like to store this information in the slide so I can record it later.
 
       scope = _.sample(["surface","inverse"])
-      order = _.sample(["everya","aevery"])
+      condition = _.sample(["everya-plain","everya-one","aevery-plain","aevery-one","aevery-there","aevery-thereone"])
+      order = condition.split("-")[0]
+      subexperiment = condition.split("-")[1]
 
       // set the image
       if (order == "aevery") {
@@ -95,8 +97,13 @@ function make_slides(f) {
       document.getElementById('image').src = image_src
 
       // set the audio
-      audio_file = "audio/" + stim.item + "-" + order + "-" + exp.scrambled + ".m4a";
-      document.getElementById('audio').src = audio_file;
+      if (this.stim.type == "test") {
+        audio_file = "audio/" + stim.item + "-" +  condition + ".mp3";
+        document.getElementById('audio').src = audio_file;
+      } else {
+        audio_file = "audio/" + stim.audio  +  ".mp3";
+        document.getElementById('audio').src = audio_file;
+      }
 
       // show prompt after audio plays
       document.getElementById("audio").onended = function() {right()};
@@ -135,9 +142,10 @@ function make_slides(f) {
         "scope" : scope,
         "order" : order,
         "item" : this.stim.item,
-        "scramble" : exp.scrambled,
         "audio" : audio_file,
-        "image" : image_src
+        "image" : image_src,
+        "subexperiment" : subexperiment,
+        "type" : this.stim.type
       });
     }
   });
@@ -180,6 +188,16 @@ function make_slides(f) {
 
 /// init ///
 function init() {
+  repeatWorker = false;
+  (function(){
+      var ut_id = "english-scope";
+      if (UTWorkerLimitReached(ut_id)) {
+        $('.slide').empty();
+        repeatWorker = true;
+        alert("You have already completed the maximum number of HITs allowed by this requester. Please click 'Return HIT' to avoid any impact on your approval rating.");
+      }
+  })();
+
   exp.trials = [];
   exp.catch_trials = [];
   exp.scrambled = _.sample(["default", "scrambled"]); //can randomize between subject conditions here
@@ -192,7 +210,7 @@ function init() {
       screenUW: exp.width
     };
   //blocks of the experiment:
-  exp.structure=["i0", "instructions", "single_trial", "one_slider", 'subj_info', 'thanks'];
+  exp.structure=["i0", "instructions", "one_slider", 'subj_info', 'thanks'];
   
   exp.data_trials = [];
   //make corresponding slides:

@@ -1,0 +1,8 @@
+workerid,school,lived,family,language,level,enjoyment,gender,age,describe,comments,years,assess,classes,college,education
+0,none,both8,kor,한국어,native,0,Female,32,KorKor,무엇을 위한 실험인지 궁금했습니다. ,mostlive,Yes,no,nocollege,3
+1,none,neverlived,eng,,basic,1,Male,,KorEng,,neverlived,No,yes,nocollege,0
+2,none,neverlived,eng,,basic,0,Male,25,KorEng,,neverlived,No,yes,nocollege,0
+3,none,neverlived,eng,,basic,0,Male,,KorEng,,neverlived,NA,yes,onesem,1
+4,small,under8,kor,yes,int,0,Female,25,KorEng,good,shortlive,No,yes,onesem,1
+5,small,both8,eng,esañol,basic,0,Male,22,KorKor,algo bueno ,neverlived,NA,yes,,2
+6,most,over8,koreng,Korean,advanced,1,Female,39,KorEng,,mostlive,Yes,no,nocollege,3

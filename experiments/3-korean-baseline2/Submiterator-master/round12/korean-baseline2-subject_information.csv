@@ -1,0 +1,6 @@
+workerid,school,lived,family,language,level,enjoyment,gender,age,describe,comments,years,assess,classes,college,education
+0,most,both8,koreng,한국어,advanced,2,Male,38,KorEng,즐거운 실험이었습니다.,mostlive,Yes,yes,nocollege,3
+1,most,both8,kor,korean,near native,1,Male,38,KorKor,,mostlive,Yes,no,nocollege,3
+2,none,neverlived,eng,,basic,0,Male,,KorEng,,neverlived,No,yes,nocollege,0
+3,small,under8,kor,ENGLISH,int,0,Female,26,KorKor,GOOD,neverlived,Yes,no,onesem,3
+4,mid,over8,koreng,korean,near native,1,Male,32,KorKor,simply super,midlive,No,yes,midsem,3
