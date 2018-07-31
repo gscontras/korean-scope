@@ -6,3 +6,4 @@ workerid,school,lived,family,language,level,enjoyment,gender,age,describe,commen
 4,small,under8,kor,yes,int,0,Female,25,KorEng,good,shortlive,No,yes,onesem,1
 5,small,both8,eng,esañol,basic,0,Male,22,KorKor,algo bueno ,neverlived,NA,yes,,2
 6,most,over8,koreng,Korean,advanced,1,Female,39,KorEng,,mostlive,Yes,no,nocollege,3
+7,most,both8,kor,한국어,native,1,Female,32,KorKor,,mostlive,Yes,no,nocollege,3

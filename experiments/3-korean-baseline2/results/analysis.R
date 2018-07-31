@@ -31,7 +31,7 @@ d = subset(df, select=c("workerid","order","item","scramble","scope", "type", "r
 # re-factorize
 d[] <- lapply( d, factor) 
 
-length(unique(d$workerid))# n=164
+length(unique(d$workerid))# n=168
 
 t <- d
 
@@ -48,10 +48,11 @@ t$response = as.numeric(as.character(t$response))
 
 #summary(t) 
 
-length(unique(t$workerid))# n=16
+length(unique(t$workerid))# n=18
+unique(t$language)
 
-length(unique(t[t$scramble!="scrambled",]$workerid))# n=11
-length(unique(t[t$scramble=="scrambled",]$workerid))# n=5
+length(unique(t[t$scramble!="scrambled",]$workerid))# n=12
+length(unique(t[t$scramble=="scrambled",]$workerid))# n=6
 
 ## eventually want to filter by fillers?
 
