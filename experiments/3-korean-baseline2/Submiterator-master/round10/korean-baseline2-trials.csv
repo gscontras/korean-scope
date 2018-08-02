@@ -125,3 +125,24 @@ workerid,trial_type,image,order,item,scramble,scope,audio,type,response
 5,one_slider,images/8-petting-aevery-inverse.JPG,everya,8-petting,default,surface,audio/8-petting-everya-default.m4a,test,0.59
 5,one_slider,images/009.JPG,aevery,filler7,default,surface,audio/f7-default.m4a,filler,0.38
 5,one_slider,images/054.JPG,aevery,filler13,default,surface,audio/f13-default.m4a,filler,0.18
+6,one_slider,images/056.JPG,aevery,filler6,default,surface,audio/f6-default.m4a,filler,0
+6,one_slider,images/2-fishing-everya-inverse.JPG,everya,2-fishing,default,inverse,audio/2-fishing-everya-default.m4a,test,0.98
+6,one_slider,images/009.JPG,everya,filler7,default,surface,audio/f7-default.m4a,filler,0.01
+6,one_slider,images/063.JPG,everya,filler2,default,surface,audio/f2-default.m4a,filler,0.98
+6,one_slider,images/3-fishpole-aevery-surface.JPG,aevery,3-fish pole,default,surface,audio/3-fish pole-aevery-default.m4a,test,0.99
+6,one_slider,images/8-petting-everya-inverse.JPG,everya,8-petting,default,inverse,audio/8-petting-everya-default.m4a,test,0.8
+6,one_slider,images/016.JPG,aevery,filler9,default,surface,audio/f9-default.m4a,filler,0
+6,one_slider,images/6-biting-aevery-surface.JPG,aevery,6-biting,default,surface,audio/6-biting-aevery-default.m4a,test,0.98
+6,one_slider,images/054.JPG,aevery,filler13,default,surface,audio/f13-default.m4a,filler,0.01
+6,one_slider,images/054.JPG,aevery,filler12,default,inverse,audio/f12-default.m4a,filler,0.01
+6,one_slider,images/005.JPG,everya,filler11,default,surface,audio/f11-default.m4a,filler,0.01
+6,one_slider,images/1-leaning-everya-inverse.JPG,everya,1-leaning,default,inverse,audio/1-leaning-everya-default.m4a,test,0.97
+6,one_slider,images/5-bottle-aevery-inverse.JPG,aevery,5-bottle,default,inverse,audio/5-bottle-aevery-default.m4a,test,0
+6,one_slider,images/4-feeding-everya-inverse.JPG,everya,4-feeding,default,inverse,audio/4-feeding-everya-default.m4a,test,0.96
+6,one_slider,images/053.JPG,everya,filler1,default,inverse,audio/f1-default.m4a,filler,0.97
+6,one_slider,images/063.JPG,everya,filler3,default,inverse,audio/f3-default.m4a,filler,0.02
+6,one_slider,images/009.JPG,aevery,filler8,default,surface,audio/f8-default.m4a,filler,0.02
+6,one_slider,images/005.JPG,aevery,filler10,default,inverse,audio/f10-default.m4a,filler,0
+6,one_slider,images/075.JPG,aevery,filler4,default,surface,audio/f4-default.m4a,filler,0
+6,one_slider,images/056.JPG,everya,filler5,default,surface,audio/f5-default.m4a,filler,0
+6,one_slider,images/7-attacking-everya-inverse.JPG,everya,7-attacking,default,inverse,audio/7-attacking-everya-default.m4a,test,0.96

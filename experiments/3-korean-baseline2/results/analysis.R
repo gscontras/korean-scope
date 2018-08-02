@@ -31,7 +31,7 @@ d = subset(df, select=c("workerid","order","item","scramble","scope", "type", "r
 # re-factorize
 d[] <- lapply( d, factor) 
 
-length(unique(d$workerid))# n=168
+length(unique(d$workerid))# n=174
 
 t <- d
 
