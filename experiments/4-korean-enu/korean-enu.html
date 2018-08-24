@@ -1,0 +1,246 @@
+<html>
+
+<head>
+    <title>Title of This Experiment</title>
+
+    <!--JS-->
+
+    <!-- external general utilities -->
+    <script src="../_shared/js/jquery-1.11.1.min.js "></script>
+    <script src="../_shared/full-projects/jquery-ui/jquery-ui.min.js"></script>
+    <script src="../_shared/js/underscore-min.js"></script>
+    <!-- if you want to draw stuff: -->
+    <!-- <script src="../_shared/js/raphael-min.js"></script> -->
+
+    <!-- cocolab experiment logic -->
+    <script src="../_shared/js/exp-V2.js"></script>
+    <script src="../_shared/js/stream-V2.js"></script>
+
+    <!-- cocolab general utilities -->
+    <script src="../_shared/js/mmturkey.js "></script>
+    <script src="../_shared/js/browserCheck.js"></script>
+    <script src="../_shared/js/utils.js"></script>
+    <!-- if you want to draw cute creatures (depends on raphael): -->
+    <!-- <script src="../_shared/js/ecosystem.js"></script> -->
+
+    <!-- experiment specific helper functions -->
+    <!-- <script src="js/local-utils.js"></script> -->
+
+    <!--CSS-->
+    <link href="../_shared/full-projects/jquery-ui/jquery-ui.min.css" rel="stylesheet" type="text/css"/>
+    <link href="../_shared/css/meaninglab-style.css" rel="stylesheet" type="text/css"/>
+    <link href="css/local-style.css" rel="stylesheet" type="text/css"/>
+
+    <!-- experiment file -->
+    <script src="js/korean.js"></script>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+        
+    <!-- check unique turkers -->
+    <script src="../_shared/js/uniqueturker.js"></script>
+    
+</head>
+
+<body onload="init();">
+  <noscript>This task requires JavaScript.</noscript>
+
+  <div class="slide" id="i0" >
+    <img src="../_shared/images/meaningLab.png" alt="UCI meaning lab" id="meaningLabLogo"></img>
+    <p id="instruct-text">이 HIT는 한국어 문장을 해석하는 것에 관련되어 있습니다. 이 과제는 약 6분 정도 걸립니다. 집중해 주시기 바랍니다. 감사합니다.</p>
+    <button id="start_button" type="button">실험을 시작합니다</button>
+    <p id="legal">법적 고지사항: 아래의 질문에 대하는 귀하는 UCI 인문과학부의 멤버에 의한 과제에 참여하는 것입니다. 
+    만약 이 연구에 대해 질문이 있으면 Greg Scontras (<a href="mailto://g.scontras@uci.edu">g.scontras@uci.edu</a>) 에게 연락바랍니다. 
+    이 연구에 참여하기 위해서는 만 18살이 되어야 합니다. 이 연구에 귀하의 참여는 자발적인 것입니다. 귀하는 주어진 질문에 또는 모든 질문에 대답하지 않아도 됩니다. 귀하는 이 연구 이후의 연구에 대해 불리한 조건없이 언제라도 거부할 수 있습니다. 귀하의 익명은 보장되며 귀하의 참여를 권유한 연구진들은 귀하의 기타 개인적인 정보를 제공받지 않습니다.</p>
+  </div>
+
+  <div class="slide" id="instructions">
+    <h3>지시 사항</h3>
+    <p>이번 설문에 참여해 주셔서 감사합니다.</p>
+    <p>귀하는 21개의 슬라이드를 보게 될 것입니다. 각 슬라이드마다 하나의 그림에 대한 설명을 들을 것입니다. 그림에 대한 설명을 듣고 그 설명에 적절한 척도로 평가해 보세요.</p>
+    <p>아래의 슬라이더를 조정하여 귀하가 들은 문장이 이미지를 적당히 묘사했는지 여부를 평가하세요.
+    <p>이 설문지는 무명이며 귀하가 제공한 모든 정보는 노출되지 않습니다.</p>
+    <button onclick="_s.button()">이어서 계속</button>
+  </div>
+
+<!--   <div class="slide" id="single_trial">
+    <p>시범입니다. 아래 조건에 의거하여 귀하는 아래에 다른 단어들을 보실 수 있습니다:</p>
+    <p class="display_condition">{{}}</p>
+    <input type="text" id="text_response"></input>
+    <button onclick="_s.button()">이어서 계속</button>
+    <p class="err">무엇인가 쓰세요.</p>
+  </div> -->
+
+  <div class="slide" id="one_slider">
+    <!-- <p>슬라이더 하나가 있습니다. 각 시도를 ‘present_handle’ 기능에 입력하세요.
+    귀하는 그 변수를 여러가지 시도로 보여주는 데 사용할 수 있습니다:</p> -->
+    <p>문장을 시작하기 위해 버튼을 누르세요:</p>
+
+    <div><img id="image" width = "400"></img></div><br>  
+
+    <div><audio id="audio" controls>
+    </audio></div>
+
+    <p class="hidden">아래의 슬라이더를 조정하여 귀하가 들은 문장이 이미지를 적당히 묘사했는지 여부를 평가하세요:</p>
+    <table id="multi_slider_table" class="hidden">
+      <tr><td>맞지 않은</td><td>
+      <div id="single_slider" class="slider"></div>
+      </td><td>완벽한</td></tr>
+    </table>
+
+    <button onclick="_s.button()" class="hidden">이어서 계속</button>
+    <div class="err">계속하기 전에 슬라이더를 조절하세요.</div>
+  </div>
+
+  <div class="slide"  id="subj_info">
+    <div class="long_form">
+      <div class="subj_info_title">추가 정보</div>
+      <p class="info">이 질문에 답하는 것은 옵션입니다. 다만, 귀하의 대답은 이 실험을 분석하는데 도움이 됩니다.</p>
+      <p>귀하는 지시사항을 읽고 HIT 를 정확하게 했다고 생각합니까?</p>
+      <label><input type="radio"  name="assess" value="No"/>아니요</label>
+      <label><input type="radio"  name="assess" value="Yes"/>네</label>
+      <label><input type="radio"  name="assess" value="Confused"/>혼동됨</label>
+
+      <p>성별:
+        <select id="gender">
+          <label><option value=""/></label>
+          <label><option value="Male"/>남성</label>
+          <label><option value="Female"/>여성</label>
+          <label><option value="Other"/>기타</label>
+        </select>
+      </p>
+
+      <p>나이: <input type="text" id="age"/></p>
+
+      <p>학력 수준:
+        <select id="education">
+          <label><option value="-1"/></label>
+          <label><option value="0"/>고등교육</label>
+          <label><option value="1"/>고등학교 졸업</label>
+          <label><option value="2"/>대학교육</label>
+          <label><option value="3"/>대학교 졸업</label>
+          <label><option value="4"/>고등교육자격증 보유</label>
+        </select>
+      </p>
+
+      <p>모국어: <input type="text" id="language"/></p>
+      <label>(귀하가 어렸을 때, 가정에서 사용한 언어(들))</label>
+
+      <p>
+        아래에서 귀하를 가장 잘 묘사한 것은 어떤 것입니까?<br>
+        <select id="describe">
+          <label><option value=""/></label>
+          <label><option value="KorEng"/> 나의 첫 언어는 한국어이지만, 현재 나의 제 1 언어는 영어이다</label>
+          <label><option value="KorKor"/> 나의 첫 언어는 한국어이고, 한국어는 여전히 나의 제 1 언어이다</label>
+          <label><option value="L2"/> 나의 첫 언어는 영어이고, 나는 한국어를 나중에 배웠다</label>
+          <label><option value="otherL2"/>  나의 첫 언어는 한국어나 영어가 아니고, 나는 한국어를 나중에 배웠다</label>
+      </select>
+      </p>
+
+
+      <p>
+        만약 귀하가 초등학교에서 한국어 수업을 택하였다면 몇 년의 한국어 수업을 택하였습니까?<br>
+        <select id="school">
+          <label><option value=""/></label>
+          <label><option value="none"/> 초등학교에서 한국어 수업을 전혀 택하지 않았다</label>
+          <label><option value="small"/>  1-2 년</label>
+          <label><option value="mid"/>  3-4 년</label>
+          <label><option value="most"/> 4년 이상</label>
+       </select>
+      </p>
+
+      <p>
+        고등학교에서 한국어 수업을 택하였습니까?<br>
+        <select id="classes">
+          <label><option value=""/></label>
+          <label><option value="yes"/> 예</label>
+          <label><option value="no"/>  아니요</label>
+        </select>
+      </p>
+
+      <p>
+        대학교에서 한국어 수업을 택하였다면, 몇 학기를 택하였습니까?<br>
+        <select id="college">
+          <label><option value=""/></label>
+          <label><option value="nocollege"/> 해당 없음</label>
+          <label><option value="onesem"/>  1학기</label>
+          <label><option value="midsem"/>  2-4 학기</label>
+          <label><option value="mostsem"/> 4학기 이상</label>
+        </select>
+      </p>
+
+      <p>
+        한국에서 살아본 적이 있습니까?<br>
+        <select id="lived">
+          <label><option value=""/></label>
+          <label><option value="neverlived"/>  아니요</label>
+          <label><option value="under8"/>  예, 8세 전에</label>
+          <label><option value="over8"/> 예, 8세 이후에</label>
+          <label><option value="both8"/> 예, 8세 이전과 8세 이후에 </label>
+        </select>
+      </p>
+
+      <p>
+        한국에서 몇 년동안 살았습니까?<br>
+        <select id="years">
+          <label><option value=""/></label>
+          <label><option value="neverlived"/>  한국에서 살아본 적이 없습니다</label>
+          <label><option value="shortlive"/> 1년 미만</label>
+          <label><option value="midlive"/> 1-5 년 </label>
+          <label><option value="mostlive"/>  5년 이상</label>
+        </select>
+      </p>
+
+      <p>
+        가정에서 가족들과 어떤 언어를 사용합니까?<br>
+        <select id="family">
+          <label><option value=""/></label>
+          <label><option value="eng"/>  영어</label>
+          <label><option value="kor"/> 한국어</label>
+          <label><option value="koreng"/>  영어와 한국어</label>
+          <label><option value="other"/>  모두 아님</label>
+        </select>
+      </p>
+
+      <p>
+        귀하의 한국어 수준을 어떻게 평가합니까?<br>
+        <select id="level">
+          <label><option value=""/></label>
+          <label><option value="basic"/> 기초</label>
+          <label><option value="int"/> 중급</label>
+          <label><option value="advanced"> 고급</option>/label>
+          <label><option value="near native"/> 토착민 수준</label>
+          <label><option value="native"/> 토착민</label>
+        </select>
+      </p>
+
+
+      <p>HIT를 즐기셨습니까?</p>
+      <select id="enjoyment">
+        <label><option value="-1"></option></label>
+        <label><option value="0">보통 이하 HIT</option></label>
+        <label><option value="1" >보통 HIT</option></label>
+        <label><option value="2">보통 이상 HIT</option></label>
+      </select>
+
+      <p>실험에 관한 귀하의 코멘트를 이곳에 작성해 주십시오:</p>
+      <textarea id="comments" rows="3" cols="50"></textarea>
+      <br/>
+      <button onclick="_s.submit()">보내기</button>
+    </div>
+  </div>
+
+  <div id="thanks" class="slide js" >
+    <p  class="big">참여해 주셔서 감사합니다!</p>
+  </div>
+
+  <div class="progress">
+    <span>진행:</span>
+    <div class="bar-wrapper">
+      <div class="bar" width="0%">
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
