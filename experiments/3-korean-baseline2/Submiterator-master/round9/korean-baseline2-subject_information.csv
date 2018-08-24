@@ -3,3 +3,9 @@ workerid,school,lived,family,language,level,enjoyment,gender,age,describe,commen
 1,none,neverlived,eng,,basic,0,Male,26,KorEng,,neverlived,NA,yes,nocollege,0
 2,small,over8,koreng,INDIA,advanced,1,Female,25,L2,GOOD SURVEY...,shortlive,No,yes,midsem,2
 3,small,under8,koreng,모국어,basic,0,Female,24,KorKor,좋은,midlive,No,yes,onesem,-1
+4,small,neverlived,eng,영어,basic,0,Female,33,KorKor,"그는 새로운 것을 배웠기 때문에 즐거워했습니다. 특히 다른 사람들에 대해 조금 배우는 것이 얼마나 중요한지
+",neverlived,Yes,yes,midsem,4
+5,none,neverlived,kor,영어,int,1,Female,26,L2,재미있는 HIT였습니다.,neverlived,Yes,no,nocollege,3
+6,none,under8,kor,malayalam,advanced,0,,male,KorKor,,midlive,Yes,yes,nocollege,3
+7,most,,,,,-1,Male,,KorEng,,,Yes,,,1
+8,mid,over8,kor,Russel,int,0,Female,24,KorKor,,neverlived,Yes,no,nocollege,2

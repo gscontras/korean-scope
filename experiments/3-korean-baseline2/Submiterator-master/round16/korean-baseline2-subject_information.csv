@@ -6,3 +6,5 @@ workerid,school,lived,family,language,level,enjoyment,gender,age,describe,commen
 4,none,neverlived,eng,,basic,0,Male,,KorEng,,neverlived,No,yes,nocollege,0
 5,mid,over8,koreng,25,near native,1,Female,22,KorKor,GOOD,midlive,No,no,midsem,2
 6,small,under8,kor,,int,1,Female,25,KorKor,NICE,midlive,Yes,yes,midsem,1
+7,most,both8,kor,Korean,native,1,Male,28,KorKor,,mostlive,Yes,yes,nocollege,3
+8,small,under8,kor,english,basic,1,Female,27,L2,오디오로 이미지를 효과적으로 릴레이하는 법을 배웁니다.,shortlive,Yes,yes,nocollege,3

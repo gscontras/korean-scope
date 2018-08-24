@@ -6,3 +6,5 @@ workerid,school,lived,family,language,level,enjoyment,gender,age,describe,commen
 4,most,over8,koreng,KOREAN,advanced,1,Male,32,L2,SIMPLY SUPER,midlive,No,yes,midsem,3
 5,most,both8,koreng,한국,advanced,1,Female,36,KorKor,,mostlive,Yes,no,onesem,2
 6,none,under8,eng,한국어,int,1,Female,22,KorKor,,midlive,Yes,yes,midsem,2
+7,most,both8,koreng,한국어,int,2,Female,22,KorEng,"한국어 레벨에따라서 문장을 그림과 어떻게 받아 들이는지 평가하는것 같은데, 재미있었습니다. ",mostlive,Yes,no,nocollege,2
+8,none,both8,eng,영어,int,2,Female,24,L2,,mostlive,Yes,no,nocollege,3

@@ -5,3 +5,6 @@ workerid,school,lived,family,language,level,enjoyment,gender,age,describe,commen
 3,,,,,,-1,,,,,,NA,,,-1
 4,small,neverlived,eng,,basic,0,Male,,KorEng,,neverlived,NA,yes,nocollege,1
 5,none,neverlived,eng,,basic,0,Male,,KorEng,,neverlived,No,yes,nocollege,0
+6,none,over8,eng,,basic,2,Male,,L2,,mostlive,No,yes,midsem,0
+7,small,under8,kor,정에서 사,native,2,Male,21,KorKor,,neverlived,Yes,no,onesem,2
+8,none,neverlived,eng,English,int,0,Female,23,KorKor,,midlive,Yes,yes,nocollege,2

@@ -2,3 +2,10 @@ workerid,school,lived,family,language,level,enjoyment,gender,age,describe,commen
 0,most,both8,koreng,"English, Korean",near native,1,Female,36,KorEng,,mostlive,Yes,no,nocollege,3
 1,small,over8,kor,,advanced,1,Male,50,KorKor,,midlive,No,yes,midsem,3
 2,small,under8,koreng,,advanced,0,Female,,KorKor,,shortlive,Yes,yes,onesem,1
+3,most,both8,koreng,한국어,near native,2,Female,28,KorKor,푸른색이 애매한 것 말고는 괜찮았습니다 ,mostlive,Yes,no,nocollege,3
+4,small,,koreng,klnlkm,int,1,Female,jyhvj,KorKor,hi,shortlive,No,yes,midsem,2
+5,small,under8,koreng,모국어,int,0,Male,성별,KorKor,"실험에 관한 귀하의 코멘트를 이곳에 작성해 주십시오:
+",shortlive,NA,yes,midsem,0
+6,small,both8,kor,한국어,int,1,Male,25,KorKor,,midlive,NA,no,onesem,0
+7,most,both8,koreng,"Korean, English",native,2,Male,45,KorEng,I hope I was helpful in your research.,mostlive,Yes,yes,nocollege,3
+8,small,over8,kor,A2BBD7TTEUDV0E,near native,1,Male,29,KorKor,,shortlive,NA,yes,onesem,0

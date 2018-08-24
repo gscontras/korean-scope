@@ -4,3 +4,7 @@ workerid,school,lived,family,language,level,enjoyment,gender,age,describe,commen
 2,most,both8,koreng, Korean,int,2,Female,43,KorEng,,mostlive,Yes,no,nocollege,3
 3,small,under8,koreng,가정에서 사용한 언어(들),advanced,1,Female,english,KorKor,nice,shortlive,Confused,yes,onesem,2
 4,mid,over8,koreng,,advanced,1,,,KorKor,good,shortlive,NA,yes,onesem,-1
+5,none,neverlived,eng,지시 사항,basic,0,Male,25,KorKor,,neverlived,Yes,yes,nocollege,0
+6,most,both8,kor,Korean,native,1,Female,29,KorEng,Sentences are very awkwardly formulated ,mostlive,Yes,yes,nocollege,2
+7,small,under8,kor,한국어,near native,1,Female,32,KorEng,,mostlive,Yes,no,nocollege,3
+8,mid,under8,kor,,int,1,Male,,KorKor,,shortlive,Yes,yes,onesem,1

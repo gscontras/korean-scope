@@ -3,3 +3,9 @@ workerid,school,lived,family,language,level,enjoyment,gender,age,describe,commen
 1,small,under8,koreng,,advanced,1,Female,,KorKor,,midlive,NA,yes,onesem,1
 2,mid,over8,koreng,영어,advanced,1,Male,21,KorKor,"
 좋은",shortlive,Yes,yes,midsem,3
+3,none,under8,koreng,"영어, 한국어",int,1,Male,18,KorEng,실험이 쉽고 만족스럽습니다,mostlive,Yes,no,nocollege,1
+4,most,both8,kor,Korean,native,2,Male,31,KorEng,,mostlive,Yes,no,nocollege,1
+5,most,over8,kor, 한국어,int,1,Male,36,KorKor,,midlive,Yes,no,mostsem,1
+6,mid,under8,kor,한국어,advanced,1,Male,25,KorKor,,midlive,Yes,no,nocollege,3
+7,mid,under8,koreng,Espanol,advanced,1,Female,20,L2,모국어,midlive,No,yes,onesem,3
+8,none,under8,koreng,"korean, english",near native,1,Female,34,KorEng,none,midlive,Yes,no,nocollege,3

@@ -6,3 +6,5 @@ workerid,school,lived,family,language,level,enjoyment,gender,age,describe,commen
 4,none,neverlived,kor,"English, Korean",advanced,1,Female,37,L2,,neverlived,Yes,no,nocollege,3
 5,mid,under8,kor,,int,0,Female,,KorKor,,shortlive,Yes,yes,midsem,2
 6,mid,both8,kor,한국어,near native,1,Male,여성수,KorEng,,midlive,Yes,no,nocollege,2
+7,mid,over8,kor,,advanced,1,Female,23,KorKor,,midlive,No,yes,onesem,2
+8,none,under8,koreng,한국어,near native,2,Male,23,KorEng,,midlive,Yes,no,nocollege,3

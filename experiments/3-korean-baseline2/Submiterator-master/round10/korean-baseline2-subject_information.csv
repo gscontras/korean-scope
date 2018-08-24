@@ -6,3 +6,5 @@ workerid,school,lived,family,language,level,enjoyment,gender,age,describe,commen
 4,none,over8,kor,귀하가 어렸을 때,int,-1,Male,22,L2,,neverlived,NA,no,onesem,2
 5,small,under8,kor,,int,0,Male,20,KorKor,,midlive,Yes,yes,onesem,1
 6,,,,,,-1,,,,,,Yes,,,-1
+7,,,,,,-1,,,,,,NA,,,-1
+8,small,under8,eng,20,near native,1,Female,38,L2,,midlive,NA,yes,midsem,2

@@ -31,7 +31,7 @@ d = subset(df, select=c("workerid","order","item","scramble","scope", "type", "r
 # re-factorize
 d[] <- lapply( d, factor) 
 
-length(unique(d$workerid))# n=174
+length(unique(d$workerid))# n=225
 
 t <- d
 
@@ -39,7 +39,7 @@ t <- d
 t = t[t$lived=="both8",]
 
 # must have provided a native langauge
-t = t[t$language!=""&t$language!="esañol",]
+t = t[t$language!=""&t$language!="esañol"&t$language!="English, Korean"&t$language!="korean, english"&t$language!="Korean, English"&t$language!="한국어 영어",]
 
 # no self-described L2 speakers
 t = t[t$describe!="L2",]
@@ -48,11 +48,11 @@ t$response = as.numeric(as.character(t$response))
 
 #summary(t) 
 
-length(unique(t$workerid))# n=18
+length(unique(t$workerid))# n=23
 unique(t$language)
 
-length(unique(t[t$scramble!="scrambled",]$workerid))# n=12
-length(unique(t[t$scramble=="scrambled",]$workerid))# n=6
+length(unique(t[t$scramble!="scrambled",]$workerid))# n=14
+length(unique(t[t$scramble=="scrambled",]$workerid))# n=9
 
 ## eventually want to filter by fillers?
 

@@ -7,3 +7,4 @@ workerid,school,lived,family,language,level,enjoyment,gender,age,describe,commen
 5,mid,under8,koreng,Korean & English,advanced,1,Female,29,KorEng,,midlive,Yes,no,nocollege,3
 6,most,over8,koreng,한국어,native,1,Male,48,KorKor,,mostlive,Yes,yes,midsem,3
 7,none,under8,eng,,int,0,Male,,KorKor,,midlive,No,no,nocollege,2
+8,small,under8,eng,,int,1,Female,25,L2,,shortlive,Yes,yes,onesem,0

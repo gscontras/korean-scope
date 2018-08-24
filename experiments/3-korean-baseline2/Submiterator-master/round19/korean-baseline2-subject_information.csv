@@ -5,3 +5,6 @@ workerid,school,lived,family,language,level,enjoyment,gender,age,describe,commen
 3,small,under8,other,"ENGLISH, SPANISH",advanced,1,Female,20,L2,IT WAS  HARD EXPERIMENT.,neverlived,No,yes,onesem,2
 4,none,over8,kor,,basic,1,Female,25,L2,good,shortlive,Yes,yes,onesem,1
 5,none,over8,eng,영어,advanced,0,Male,27,L2,,midlive,Yes,no,mostsem,2
+6,small,under8,kor,한국어,int,2,Female,26,KorKor,,mostlive,Yes,no,nocollege,3
+7,mid,neverlived,kor,朝鲜的,advanced,0,Male,23,KorKor,,,Yes,yes,onesem,0
+8,mid,over8,kor,Greek,advanced,1,,28,otherL2,,shortlive,Yes,yes,midsem,3
