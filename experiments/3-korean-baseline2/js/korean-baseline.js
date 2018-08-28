@@ -44,7 +44,7 @@ function make_slides(f) {
     present : _.shuffle([
       {type: "test", item: "1-leaning", aevery_surface: "1-leaning-aevery-surface", aevery_inverse: "1-leaning-aevery-inverse", everya_inverse: "1-leaning-everya-inverse"},
       {type: "test", item: "2-fishing", aevery_surface: "2-fishing-aevery-surface", aevery_inverse: "2-fishing-aevery-inverse", everya_inverse: "2-fishing-everya-inverse"},
-      {type: "test", item: "3-pole", aevery_surface: "3-pole-aevery-surface", aevery_inverse: "3-pole-aevery-inverse", everya_inverse: "3-pole-everya-inverse"},
+      {type: "test", item: "3-fish pole", aevery_surface: "3-fishpole-aevery-surface", aevery_inverse: "3-fishpole-aevery-inverse", everya_inverse: "3-fishpole-everya-inverse"},
       {type: "test", item: "4-feeding", aevery_surface: "4-feeding-aevery-surface", aevery_inverse: "4-feeding-aevery-inverse", everya_inverse: "4-feeding-everya-inverse"},
       {type: "test", item: "5-bottle", aevery_surface: "5-bottle-aevery-surface", aevery_inverse: "5-bottle-aevery-inverse", everya_inverse: "5-bottle-everya-inverse"},
       {type: "test", item: "6-biting", aevery_surface: "6-biting-aevery-surface", aevery_inverse: "6-biting-aevery-inverse", everya_inverse: "6-biting-everya-inverse"},
