@@ -1,2 +1,9 @@
 workerid,school,lived,family,language,level,enjoyment,gender,age,describe,comments,years,assess,classes,college,education
-0,small,neverlived,eng,english2,int,0,Other,18,KorEng,,shortlive,Yes,no,onesem,1
+0,small,neverlived,kor,"한국, 영어",near native,1,Female,28,KorEng,,neverlived,Yes,yes,mostsem,2
+1,none,under8,kor,한국어,int,0,Female,27,KorKor,"
+오디오를 듣는 것은 매우 재미있었습니다. 그러나 나는 혼란스러워 보였습니다.",midlive,Confused,yes,onesem,4
+2,mid,over8,kor,한국어,near native,1,Female,28,KorKor,,mostlive,No,no,nocollege,3
+3,small,under8,other,english,advanced,1,Female,26,KorKor,A352QLA6AIP5J2,neverlived,Yes,no,midsem,1
+4,most,under8,kor,,int,1,Male,40,KorEng,,mostlive,Yes,no,nocollege,3
+5,small,under8,koreng,영어,int,0,Male,27,KorEng,없음,shortlive,Yes,yes,onesem,1
+6,small,neverlived,kor,usa,advanced,1,Female,47,KorKor,none,mostlive,Yes,no,midsem,2

@@ -1,0 +1,8 @@
+workerid,school,lived,family,language,level,enjoyment,gender,age,describe,comments,years,assess,classes,college,education
+0,most,over8,koreng,English,advanced,1,Female,40,KorEng,NA,mostlive,Yes,no,nocollege,2
+1,small,neverlived,koreng,영어,basic,0,Male,22,L2,재밌었어요.,neverlived,Yes,no,nocollege,2
+2,most,under8,eng,한국어,native,0,Male,28,KorKor,그 일을하는 데 많은 재미를 보았습니다.,mostlive,NA,yes,mostsem,3
+3,small,under8,koreng,English,int,1,Male,21,,This was amazing.,midlive,Yes,yes,midsem,3
+4,small,over8,koreng,모국어,advanced,1,Female,나이,KorKor,실험에 관한 귀하의 코멘트를 이곳에 작성해 주십시오,shortlive,NA,no,midsem,2
+5,most,both8,koreng,한국말,int,2,Female,32,KorKor,,mostlive,Yes,no,nocollege,3
+6,most,neverlived,eng,영어,int,2,Female,26,L2,감사합니다.,neverlived,Yes,no,nocollege,3

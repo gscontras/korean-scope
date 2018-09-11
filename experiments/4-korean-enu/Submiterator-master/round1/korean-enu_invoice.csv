@@ -1,5 +1,11 @@
 date,workerid,amount
-Tue Aug 28 14:46:22 PDT 2018,A37N1RCSTIK3ZU,0.4
-,total paid to workers:,=SUM(c2:c2)
-,40% paid to Amazon:,=.4*c3
-,total:,=SUM(c3:c4
+Thu Aug 30 18:56:49 PDT 2018,A3W3VDGMJ3UGN4,0.4
+Sun Sep 02 19:16:50 PDT 2018,A2PDHIGFVANZJ0,0.4
+Wed Sep 05 18:37:03 PDT 2018,A2XYFDID4I2M7A,0.4
+Wed Sep 05 21:31:04 PDT 2018,A352QLA6AIP5J2,0.4
+Thu Sep 06 10:49:33 PDT 2018,A12WNBMMM55WXG,0.4
+Fri Sep 07 14:21:00 PDT 2018,A223RS8UMIB17A,0.4
+Sun Sep 09 20:54:02 PDT 2018,AVM5O65O7PESZ,0.4
+,total paid to workers:,=SUM(c2:c8)
+,40% paid to Amazon:,=.4*c9
+,total:,=SUM(c9:c10

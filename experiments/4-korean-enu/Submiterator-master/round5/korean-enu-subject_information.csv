@@ -1,0 +1,8 @@
+workerid,school,lived,family,language,level,enjoyment,gender,age,describe,comments,years,assess,classes,college,education
+0,most,both8,kor,한국어,advanced,2,Female,24,KorEng,,mostlive,Yes,no,onesem,3
+1,small,under8,kor,한국어,int,0,Male,명,L2,,shortlive,Yes,yes,onesem,2
+2,most,both8,koreng,Korean,advanced,2,Female,40,KorKor,,mostlive,Yes,yes,midsem,3
+3,none,under8,kor,"한국어,일본어",advanced,2,Male,18,KorKor,어떤 문장이 맞기도하고 아니기도한것이 있었어요.,shortlive,Yes,no,nocollege,2
+4,small,under8,kor,,int,0,Female,,KorEng,,shortlive,Yes,yes,onesem,2
+5,most,both8,koreng,korean,advanced,1,Female,39,KorEng,,mostlive,Yes,yes,nocollege,3
+6,none,neverlived,eng,,basic,0,Female,,KorEng,,neverlived,Yes,yes,nocollege,1

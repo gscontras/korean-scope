@@ -1,0 +1,11 @@
+workerid,school,lived,family,language,level,enjoyment,gender,age,describe,comments,years,assess,classes,college,education
+0,small,under8,eng,sdd ,near native,2,Male,41,L2,,neverlived,NA,yes,mostsem,2
+1,most,both8,koreng,korean,native,2,Female,55,KorEng,funn,mostlive,NA,yes,nocollege,0
+2,mid,over8,kor,한국어,native,0,Female,32,L2,나는 그것이 훌륭한 스튜디오라고 생각했다.,shortlive,Yes,yes,onesem,3
+3,mid,over8,kor,,advanced,1,Female,,KorKor,,shortlive,No,no,onesem,2
+4,most,both8,kor,Korean,native,2,Female,26,KorEng,몇개의 문장은 어떻게 듣느냐에 따라 맞기도하고 아니기도 한것도 있어서 조금 헷갈렸습니다. ,mostlive,Yes,no,onesem,3
+5,most,both8,koreng,Korean + English,advanced,2,Male,24,KorEng,,mostlive,Yes,yes,nocollege,3
+6,most,both8,kor,한국어,near native,2,Female,32,KorEng,,mostlive,Yes,no,nocollege,3
+7,small,both8,koreng,,near native,1,Female,,L2,,midlive,Yes,no,onesem,2
+8,none,neverlived,eng,영어,advanced,1,Male,21,L2,"진짜 좋아요... 조금 HIT 이상해요
+",midlive,Yes,no,nocollege,2
