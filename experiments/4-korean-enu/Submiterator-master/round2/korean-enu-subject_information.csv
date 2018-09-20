@@ -6,3 +6,5 @@ workerid,school,lived,family,language,level,enjoyment,gender,age,describe,commen
 4,small,over8,koreng,모국어,advanced,1,Female,나이,KorKor,실험에 관한 귀하의 코멘트를 이곳에 작성해 주십시오,shortlive,NA,no,midsem,2
 5,most,both8,koreng,한국말,int,2,Female,32,KorKor,,mostlive,Yes,no,nocollege,3
 6,most,neverlived,eng,영어,int,2,Female,26,L2,감사합니다.,neverlived,Yes,no,nocollege,3
+7,mid,over8,koreng,korean,advanced,1,Female,28,KorKor,nice,midlive,Yes,yes,midsem,4
+8,small,over8,kor,English,advanced,1,Female,32,KorEng,No,shortlive,NA,yes,midsem,1
