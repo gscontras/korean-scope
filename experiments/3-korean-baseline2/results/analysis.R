@@ -96,7 +96,7 @@ kk_violin <- ggplot(d_raw, aes(x=factor(order,labels=c("every > a/one","a/one > 
 kk_violin
 #ggsave("../results/korean-baseline-violin.png",width=6,height=2)
 
-
+native_korean = d_raw
 
 #############################
 ### HERITAGE SPEAKER ANALYSIS
@@ -158,3 +158,79 @@ hkk_violin <- ggplot(d_raw, aes(x=factor(order,labels=c("every > a/one","a/one >
   facet_wrap( ~ scramble)
 hkk_violin
 #ggsave("../results/heritage-korean-violin.png",width=6,height=2)
+
+heritage_korean = d_raw
+
+
+######################
+### Tübingen plots ###
+######################
+
+heritage_korean$subexpt = "Heritage Korean"
+heritage_korean$subexperiment = "Heritage Korean"
+native_korean$subexpt = "Native Korean"
+native_korean$subexperiment = "Native Korean"
+english$subexpt = "English"
+english$scramble = "default"
+
+hk =subset(heritage_korean,select=c("workerid","subexperiment","response","subexpt","order","scope","scramble"))
+nk =subset(native_korean,select=c("workerid","subexperiment","response","subexpt","order","scope","scramble"))
+e  =subset(english,select=c("workerid","subexperiment","response","subexpt","order","scope","scramble"))
+
+d = rbind(hk,nk,e)
+
+### only default order
+
+default = d[d$scramble=="default"&d$order=="aevery"&d$subexperiment!="one"&d$subexperiment!="there"&d$subexperiment!="thereone",]
+
+d_s = bootsSummary(data=default, measurevar="response", groupvars=c("order","scope","subexpt"))
+d_s$subexpt <- factor(d_s$subexpt,levels=c("English","Native Korean","Heritage Korean")) 
+d_s$subexpt <- factor(d_s$subexpt,labels=c("Native English\n(n=86)","Native Korean\n(n=23)","Heritage Korean\n(n=12)")) 
+
+plot <- ggplot(d_s, aes(x=subexpt,y=response,fill=factor(scope,labels=c("surface","inverse")))) +
+  geom_bar(stat="identity",position=position_dodge()) +
+  geom_errorbar(aes(ymin=bootsci_low, ymax=bootsci_high, x=subexpt, width=0.1),position=position_dodge(width=0.9))+
+  ylab("rating\n")+
+  #scale_y_continuous(limits=c(1,7),oob = rescale_none)+
+  geom_text(aes(y=(bootsci_low-.06),label=round(response,1)),position=position_dodge(width=0.9))+
+  #scale_y_continuous(limits=c(1,7),rescale_none)+
+  #scale_y_continuous(limits=c(1,5),oob = rescale_none)+
+  #ylim(0,7)+
+  xlab("\n experiment") +
+  labs(fill="interpretation")+
+  theme_bw() +
+  scale_fill_manual(values=c("darkgrey", "lightgrey"))+
+  theme(panel.background = element_rect(fill = 'white',color ='black')) 
+#facet_wrap( ~ subexpt)
+plot
+
+#ggsave("../results/tuebingen_scope_plot.pdf",width=6,height=4)
+
+
+### default and scramble
+
+ds = d[d$order=="aevery"&d$subexperiment!="one"&d$subexperiment!="there"&d$subexperiment!="thereone",]
+ds_s = bootsSummary(data=ds, measurevar="response", groupvars=c("order","scope","subexpt","scramble"))
+ds_s$subexpt <- factor(ds_s$subexpt,levels=c("English","Native Korean","Heritage Korean")) 
+ds_s$subexpt <- factor(ds_s$subexpt,labels=c("Native English\n(n=86)","Native Korean\n(n=23)","Heritage Korean\n(n=12)")) 
+
+plot <- ggplot(ds_s, aes(x=subexpt,y=response,color=scramble,fill=factor(scope,labels=c("surface","inverse")))) +
+  geom_bar(stat="identity",position=position_dodge()) +
+  geom_errorbar(aes(ymin=bootsci_low, ymax=bootsci_high, x=subexpt, width=0.1),position=position_dodge(width=0.9))+
+  ylab("rating\n")+
+  #scale_y_continuous(limits=c(1,7),oob = rescale_none)+
+  geom_text(aes(y=(bootsci_low-.065),label=round(response,1)),position=position_dodge(width=0.9))+
+  #scale_y_continuous(limits=c(1,7),rescale_none)+
+  #scale_y_continuous(limits=c(1,5),oob = rescale_none)+
+  #ylim(0,7)+
+  xlab("\n experiment") +
+  labs(fill="interpretation",color="order")+
+  theme_bw() +
+  scale_fill_manual(values=c("darkgrey", "lightgrey"))+
+  scale_color_manual(values=c("black", "blue"))+
+  theme(panel.background = element_rect(fill = 'white',color ='black')) 
+#facet_wrap( ~ subexpt)
+plot
+
+#ggsave("../results/tuebingen_scope_plot_scramble.pdf",width=6,height=4)
+

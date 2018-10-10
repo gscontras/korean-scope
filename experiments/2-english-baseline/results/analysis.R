@@ -73,5 +73,5 @@ ee_violin <- ggplot(d_raw, aes(x=factor(order,labels=c("every > a/one","a/one > 
 ee_violin
 #ggsave("../results/english-baseline-violin.png",width=7.5,height=4)
 
-
+english = d_raw
 
