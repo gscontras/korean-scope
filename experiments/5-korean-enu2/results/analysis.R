@@ -5,8 +5,8 @@ library(dplyr)
 library(lmerTest)
 #library(tidyr)
 
-#setwd("~/Documents/git/korean-scope/experiments/4-korean-enu/Submiterator-master/")
-setwd("~/git/korean_scope/experiments/4-korean-enu/Submiterator-master")
+### load first set of results
+setwd("~/git/korean-scope/experiments/4-korean-enu/Submiterator-master")
 
 #### first run of experiment
 num_round_dirs = 5
@@ -16,12 +16,25 @@ df1 = do.call(rbind, lapply(1:num_round_dirs, function(i) {
       mutate(workerid = (workerid + (i-1)*9)))}))
 df1$workerid = paste("v1.",df1$workerid)
 
-d = subset(df1, select=c("workerid","order","quantifier", "item","scramble","scope", "type", "response", "school","lived","family","language","level","gender","age","describe","years","assess","classes","college","education"))
+### load second set of results
+setwd("~/git/korean-scope/experiments/5-korean-enu2/Submiterator-master")
+
+#### first run of experiment
+num_round_dirs = 20
+df2 = do.call(rbind, lapply(1:num_round_dirs, function(i) {
+  return (read.csv(paste(
+    '../../5-korean-enu2/Submiterator-master/round', i, '/korean-enu2.csv', sep=''),stringsAsFactors=FALSE) %>% 
+      mutate(workerid = (workerid + (i-1)*9)))}))
+df2$workerid = paste("v2.",df2$workerid)
+
+d = rbind(df1,df2)
+
+d = subset(d, select=c("workerid","order","quantifier", "item","scramble","scope", "type", "response", "school","lived","family","language","level","gender","age","describe","years","assess","classes","college","education"))
 
 # re-factorize
 d[] <- lapply( d, factor) 
 
-length(unique(d$workerid))# n=225
+length(unique(d$workerid))# n=155
 
 t <- d
 
@@ -29,7 +42,7 @@ t <- d
 t = t[t$lived=="both8",]
 
 # must have provided a native langauge
-t = t[t$language=="한국어"|t$language=="한국말"|t$language=="korean"|t$language=="Korean"|t$language=="한국어"|t$language=="KOREAN",]
+t = t[t$language!="olifd"&t$language!=""&t$language!="Korean + English"&t$language!="한국어, 영어",]
 
 # no self-described L2 speakers
 t = t[t$describe!="L2",]
@@ -38,11 +51,11 @@ t$response = as.numeric(as.character(t$response))
 
 #summary(t) 
 
-length(unique(t$workerid))# n=9
+length(unique(t$workerid))# n=28
 unique(t$language)
 
-length(unique(t[t$scramble!="scrambled",]$workerid))# n=4
-length(unique(t[t$scramble=="scrambled",]$workerid))# n=5
+length(unique(t[t$scramble!="scrambled",]$workerid))# n=14
+length(unique(t[t$scramble=="scrambled",]$workerid))# n=14
 
 ## eventually want to filter by fillers?
 
@@ -80,7 +93,7 @@ kk_violin <- ggplot(d_raw, aes(x=factor(order,labels=c("every > a/one","a/one > 
   theme(panel.background = element_rect(fill = 'white',color ='black')) +
   facet_grid(scramble ~ quantifier)
 kk_violin
-#ggsave("../results/korean-baseline-enu.png",width=6,height=4)
+#ggsave("../results/korean-baseline-enu2-combined.png",width=6,height=4)
 
 
 #############################
