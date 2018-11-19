@@ -1,0 +1,5 @@
+workerid,school,lived,family,language,level,enjoyment,gender,age,describe,comments,years,assess,classes,college,education
+0,mid,under8,kor,,int,1,Female,18,KorEng,,mostlive,Yes,yes,midsem,2
+1,small,under8,eng,한국어,advanced,0,Female,28,KorEng,,midlive,Yes,yes,nocollege,3
+2,most,both8,eng,korean,near native,2,Female,45,KorKor,흥미있고 지루하지않게 잘만든 실험입니다.,mostlive,Yes,yes,onesem,3
+3,mid,both8,kor,,advanced,1,Female,,L2,,shortlive,No,no,onesem,2

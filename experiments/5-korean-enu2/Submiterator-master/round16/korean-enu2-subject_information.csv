@@ -1,0 +1,9 @@
+workerid,school,lived,family,language,level,enjoyment,gender,age,describe,comments,years,assess,classes,college,education
+0,small,under8,kor,英語,int,1,Male,30,KorKor,都好,shortlive,Yes,yes,onesem,4
+1,small,over8,koreng,한국어,advanced,1,Male,22,KorEng,,mostlive,Yes,no,nocollege,2
+2,none,neverlived,kor,한국어,near native,1,,23,L2,없음,neverlived,Yes,no,nocollege,3
+3,small,under8,kor,KOREAN,near native,1,Female,24,KorKor,,mostlive,Confused,,midsem,4
+4,none,neverlived,eng,English,int,0,Male,23,KorKor,"아주 쉬운 임무, 기회에 감사드립니다.",neverlived,Yes,yes,nocollege,1
+5,none,under8,koreng,English,int,0,Male,29,KorEng,,shortlive,Confused,yes,onesem,1
+6,small,under8,kor,한국어,int,0,Male,24,KorKor,큰,midlive,Yes,yes,midsem,3
+7,most,both8,kor,Korean,native,2,Male,27,KorEng,"나레이터분이 읽으신 한글이 좀 어색하면이 없진 않았지만, 이해하는데 문제가 없었습니다. ",mostlive,Yes,no,nocollege,3

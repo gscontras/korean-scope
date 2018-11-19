@@ -1,0 +1,9 @@
+workerid,school,lived,family,language,level,enjoyment,gender,age,describe,comments,years,assess,classes,college,education
+0,mid,over8,kor,영어,advanced,0,Male,30,KorKor,"
+내가 좋아하는 아주 좋은 실험",shortlive,Yes,yes,midsem,3
+1,none,neverlived,other,영어와 인도네시아어,int,2,Female,41,otherL2,너무 좋았어요. 한국어를 배우고 한국으로 가는 게 제 꿈입니다. 그래서 저는 이 실험을 완성하게 되어 영광입니다. 나는 이것을 받아들이는 것을 후회하지 않습니다.,neverlived,Yes,no,nocollege,3
+2,small,under8,kor,,int,0,Female,,L2,,shortlive,No,yes,onesem,2
+3,none,under8,kor,"영어, 한국어",basic,1,Female,22,KorEng,"맞다 맞지않다만 있었으면 편했을거같아요! 
+어정쩡하게 강아지는 맞는데 한마리가아니고 해서 맞다 맞지않다 사이 어느 쪽에 더가까운지 평가하기가 조금 어려웠어요",midlive,Yes,no,nocollege,3
+4,small,under8,kor,한국어,int,1,Male,34,KorKor,좋은,midlive,Yes,yes,onesem,2
+5,small,under8,kor,English,near native,2,Male,26,KorKor,,shortlive,Confused,yes,nocollege,2

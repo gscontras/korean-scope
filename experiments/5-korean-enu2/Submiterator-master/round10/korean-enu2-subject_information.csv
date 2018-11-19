@@ -1,0 +1,11 @@
+workerid,school,lived,family,language,level,enjoyment,gender,age,describe,comments,years,assess,classes,college,education
+0,small,neverlived,kor,English,advanced,1,Male,22,KorKor,"
+굉장 했어.",shortlive,Yes,yes,onesem,2
+1,none,neverlived,eng,,basic,0,Other,,KorEng,,neverlived,Yes,yes,nocollege,0
+2,small,under8,koreng,,,1,Male,34,L2,,midlive,NA,yes,midsem,2
+3,small,under8,other,English,native,1,Male,34,KorKor,,shortlive,Yes,yes,onesem,2
+4,none,under8,kor,,basic,2,Female,,KorKor,,shortlive,Yes,no,nocollege,1
+5,most,both8,koreng,한국어,advanced,1,Female,38,KorKor,,mostlive,Yes,no,mostsem,3
+6,mid,over8,koreng,,basic,1,Male,32,KorKor,,shortlive,NA,no,onesem,1
+7,mid,under8,eng,한국어,int,1,Male,34,KorEng,좋은,shortlive,Yes,yes,nocollege,2
+8,small,neverlived,kor,한국어,int,0,Male,31,L2,우수한!,mostlive,Yes,no,nocollege,2

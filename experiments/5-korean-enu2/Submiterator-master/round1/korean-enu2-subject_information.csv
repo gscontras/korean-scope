@@ -1,0 +1,6 @@
+workerid,school,lived,family,language,level,enjoyment,gender,age,describe,comments,years,assess,classes,college,education
+0,small,under8,kor,한국어,int,0,Male,34,L2,좋은,shortlive,Yes,yes,onesem,1
+1,most,both8,koreng,"한국어, 영어",near native,1,Female,27,KorEng,,mostlive,Yes,yes,nocollege,3
+2,mid,under8,koreng,33,int,1,Female,23,KorKor,,shortlive,Yes,no,nocollege,1
+3,small,neverlived,kor,", 가정에서 ",int,0,Male,나이,KorKor,나이나이나이나이나이나이나이나이나이나이나이나이나이 관한 귀하의 코멘트를 이곳,shortlive,No,no,nocollege,1
+4,mid,under8,kor,한국어,advanced,2,Male,24,KorEng,,midlive,Yes,yes,nocollege,2

@@ -1,0 +1,10 @@
+workerid,school,lived,family,language,level,enjoyment,gender,age,describe,comments,years,assess,classes,college,education
+0,small,both8,kor,한국어,native,1,Female,23,KorEng,한국어 문장들이 영어를 직역한 문장이라서 부자연스러웠습니다.,mostlive,Yes,no,nocollege,3
+1,none,neverlived,kor,spanish,near native,0,Male,27,KorEng,a little confused but interesting,neverlived,Confused,yes,onesem,1
+2,small,over8,kor,sasa,int,1,Female,1ss,KorEng,,midlive,Yes,no,onesem,2
+3,none,over8,koreng,영어,basic,1,Female,이십 육,KorEng,"감사합니다, 좋은 하루 되세요",shortlive,Yes,yes,onesem,2
+4,,,,,,-1,,,,,,NA,,,-1
+5,most,both8,kor,한국어,native,2,Female,31,KorKor,문장이 조금 어설퍼요,mostlive,Yes,yes,nocollege,3
+6,mid,neverlived,kor,,basic,0,Female,0,KorEng,Good.,midlive,No,yes,nocollege,1
+7,none,under8,kor,,int,2,Female,,KorEng,,neverlived,Confused,yes,onesem,1
+8,small,over8,kor,영어,int,0,Female,26,KorKor,즐거운 경험,midlive,Yes,yes,onesem,1

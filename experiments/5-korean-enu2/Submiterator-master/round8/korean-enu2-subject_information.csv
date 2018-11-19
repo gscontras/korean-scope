@@ -1,0 +1,7 @@
+workerid,school,lived,family,language,level,enjoyment,gender,age,describe,comments,years,assess,classes,college,education
+0,small,over8,kor,정에서,int,1,Male,확하게,KorKor,,shortlive,Yes,no,onesem,1
+1,most,neverlived,eng,영어,advanced,1,Female,32,KorEng,재미있는 히트 곡 이었어.,neverlived,Yes,yes,midsem,2
+2,most,under8,koreng,Korean,advanced,1,Male,40,KorEng,,mostlive,NA,no,nocollege,3
+3,mid,under8,koreng,English,advanced,1,Female,39,KorKor,none,midlive,Yes,no,midsem,2
+4,mid,over8,kor,A3F8RP193M37U9,int,1,Male,A3F8RP193M37U9,KorKor,,midlive,Yes,yes,mostsem,1
+5,small,under8,kor,,int,0,Female,,KorKor,,mostlive,No,yes,onesem,1

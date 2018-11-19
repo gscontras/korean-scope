@@ -1,0 +1,7 @@
+workerid,school,lived,family,language,level,enjoyment,gender,age,describe,comments,years,assess,classes,college,education
+0,mid,under8,koreng,y563y,int,1,Male,nyht365,KorKor,,shortlive,NA,yes,onesem,0
+1,small,under8,kor,지시사,advanced,1,Male,지시사,KorEng,지시사,shortlive,No,yes,midsem,1
+2,none,over8,eng,영어,native,1,Female,31,L2,,mostlive,Yes,no,nocollege,3
+3,mid,both8,koreng,Korean,advanced,2,Male,47,KorEng,,mostlive,Yes,no,nocollege,3
+4,none,neverlived,koreng,,,0,Female,34,L2,,neverlived,Yes,no,nocollege,3
+5,small,both8,other,olifd,advanced,1,Female,bjv ,L2,,neverlived,Yes,no,onesem,3

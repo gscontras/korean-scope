@@ -1,0 +1,6 @@
+workerid,school,lived,family,language,level,enjoyment,gender,age,describe,comments,years,assess,classes,college,education
+0,none,neverlived,eng,,basic,0,Other,,KorEng,,neverlived,Yes,yes,nocollege,0
+1,none,over8,eng,"가 어렸을 때, 가정에서 사용한 언어(",advanced,1,Male,44,L2,,mostlive,NA,no,onesem,2
+2,none,both8,kor,korean,native,0,Male,37,KorKor,그림이 잘 안보여서 혼동되는 경우가 있습니다..,mostlive,Confused,no,nocollege,3
+3,most,over8,kor,한국어 영어 독일어,native,1,Male,31,KorKor,좋습니다,mostlive,Yes,yes,mostsem,3
+4,small,under8,kor,아래에서 귀하를 가,advanced,1,Female,53,KorKor,,shortlive,No,yes,midsem,2

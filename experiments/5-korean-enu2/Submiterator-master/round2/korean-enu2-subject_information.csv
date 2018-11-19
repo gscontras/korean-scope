@@ -1,0 +1,8 @@
+workerid,school,lived,family,language,level,enjoyment,gender,age,describe,comments,years,assess,classes,college,education
+0,mid,over8,kor,,advanced,2,,36,KorKor,,shortlive,NA,yes,midsem,0
+1,most,over8,koreng,한국어,int,2,Female,30,KorKor,재미있었습니다. 근데 사진이 어두운 건 잘 안보여요,mostlive,Yes,yes,nocollege,3
+2,small,under8,eng,,int,0,Female,33,L2,,neverlived,Yes,yes,onesem,3
+3,none,neverlived,eng,영어,basic,0,Female,34,KorEng,n/a,neverlived,Yes,no,nocollege,3
+4,small,neverlived,eng,,advanced,1,Male,31,KorEng,,shortlive,No,yes,nocollege,0
+5,mid,under8,kor,귀하가 어렸을 때,advanced,1,Female,혼동됨,KorKor,추가 정보,shortlive,Confused,yes,midsem,2
+6,none,neverlived,koreng,,advanced,2,Female,,L2,,shortlive,Yes,yes,midsem,2
